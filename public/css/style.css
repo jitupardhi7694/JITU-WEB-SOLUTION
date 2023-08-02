@@ -1,0 +1,43 @@
+body {
+    background-color: black !important
+    ;
+    color: rgb(254, 93, 168);
+    /* font-family: 'Yeseva One', serif !important; */
+    font-family: 'Quicksand', sans-serif !important ;
+    background: url(../img/background.jpg) no-repeat;
+    background-size: cover;
+}
+
+.login-body {
+    background-color: black !important
+    ;
+    color: rgb(254, 93, 168);
+    /* font-family: 'Yeseva One', serif !important; */
+    font-family: 'Quicksand', sans-serif !important ;
+    background: url(../img/blue-backgound.jpg) no-repeat;
+    background-size: cover;
+}
+
+.welcome-heading {
+    font-weight: bold;
+}
+.welcome-ui {
+    padding: 130px 0;
+}
+
+.navbar-brand {
+    color: rgb(254, 93, 168) !important;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.style-heading {
+    font-weight: 600;
+    color: rgb(0, 255, 30);
+}
+.btn {
+    border-color: rgb(254, 93, 168) !important;
+}
+.btn:hover {
+    background-color: rgb(254, 93, 168) !important;
+}
