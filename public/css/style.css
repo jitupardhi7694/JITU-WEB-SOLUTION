@@ -4,8 +4,15 @@ body {
     color: rgb(254, 93, 168);
     /* font-family: 'Yeseva One', serif !important; */
     font-family: 'Quicksand', sans-serif !important ;
-    background: url(../img/background.jpg) no-repeat;
+    /* background: url(../img/background.jpg); */
     background-size: cover;
+}
+.text-white {
+    text-align: justify;
+}
+.card {
+    background: none;
+    box-shadow: -1px 1px 14px 1px gray;
 }
 
 .login-body {
@@ -19,9 +26,18 @@ body {
     font-weight: bold;
 }
 .welcome-ui {
-    padding: 130px 0;
+    padding: 210px 0;
+    font-family: 'Bungee Spice', cursive !important;
 }
-
+.bg {
+    background-color: black;
+}
+.h-style {
+    font-family: 'Bungee Spice', cursive !important;
+}
+.card-mt {
+    margin-top: 60px;
+}
 .navbar-brand {
     color: rgb(254, 93, 168) !important;
     font-size: 1.5rem;
@@ -59,8 +75,11 @@ body {
         display: grid;
     }
     .welcome-ui {
-        padding: 46px 0;
+        padding: 150px 0 120px 0;
         place-content: center;
         display: grid;
+    }
+    .bg {
+        background-color: black;
     }
 }
