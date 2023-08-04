@@ -27,6 +27,19 @@
                     crossorigin="anonymous"></script>
                 <script src="https://kit.fontawesome.com/52729421f5.js" crossorigin="anonymous"></script>
 
+
+                <script type="text/javascript">
+                    if (true) {
+                        document.getElementById('searchform').onsubmit = function () {
+                            window.location = 'http://www.google.com/search?q=site:yourdomainname ' +
+                                document.getElementById('test').value;
+                            return false;
+                        }
+
+                    } else {
+                        alert('not found the search')
+                    }
+                </script>
 </body>
 
 </html>
