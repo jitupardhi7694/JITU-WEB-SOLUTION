@@ -7,6 +7,14 @@ body {
     /* background: url(../img/background.jpg); */
     background-size: cover;
 }
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+
 .text-white {
     text-align: justify;
 }
@@ -65,12 +73,12 @@ body {
 
 @media (max-width: 567px) {
     .login-body {
-        margin: 46px 0;
+        margin: 160px 0;
         place-content: center;
         display: grid;
     }
     .register-body {
-        margin: 46px 0;
+        margin: 160px 0;
         place-content: center;
         display: grid;
     }
