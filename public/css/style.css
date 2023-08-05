@@ -91,6 +91,11 @@ body {
         place-content: center;
         display: grid;
     }
+    .team-image {
+        border-radius: 500px;
+        height: 22vh !important;
+        width: 40vw !important;
+    }
     .bg {
         background-color: black;
     }
