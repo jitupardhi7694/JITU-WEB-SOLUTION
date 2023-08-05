@@ -8,6 +8,10 @@ body {
     background-size: cover;
 }
 
+.get-h-style {
+    color: aqua;
+}
+
 #btn-back-to-top {
     position: fixed;
     bottom: 20px;
@@ -90,4 +94,8 @@ body {
     .bg {
         background-color: black;
     }
+}
+.team-image {
+    border-radius: 500px;
+    height: 42vh;
 }
