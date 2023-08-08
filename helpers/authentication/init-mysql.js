@@ -1,5 +1,5 @@
 const { Sequelize } = require('sequelize');
-const dbConfig = require('../config/mysql-config.js');
+const dbConfig = require('../../config/mysql-config.js');
 const logger = require('./winston');
 
 const sqlise = new Sequelize(dbConfig.DB, dbConfig.USER, dbConfig.PWD, {

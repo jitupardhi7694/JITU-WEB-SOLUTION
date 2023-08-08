@@ -1,4 +1,4 @@
-const roles = require('../config/roles.json');
+const roles = require('../../config/roles.json');
 // const menuByRoles = require('../config/roles_menu.json');
 
 function ensureAuthenticated(req, res, next) {
