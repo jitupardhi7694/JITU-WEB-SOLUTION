@@ -13,7 +13,7 @@ async function sendResetPasswordLink(req, res, next, email) {
             errors.push({
                 msg: 'Unable to send reset password link email, User does not exist.',
             });
-            return res.render('userDashboard/register', { errors });
+            return res.render('register', { errors });
         }
         // User found, Generate a token, send email and update token in user record...
         // const secretKey = process.env.JWT_RESET_KEY; // Generate a new secret key
@@ -24,6 +24,25 @@ async function sendResetPasswordLink(req, res, next, email) {
                 expiresIn: '2h',
             }
         );
+
+        let emailBodyText = `
+        <p> Hello ${userName.name} </p>
+        <p>You registered an account on Jitu Web Solution, before being able to use your account you need to verify that this is
+            your email address by </p>
+        <p>clicking here: <a  href="${host.PROTOCOL}://${host.HOST}:${host.PORT}/forgotPassword/${token} class="btn btn-outline-success">Activate Email</a> </p>
+        <p>This link valid upto 2hr</p>
+
+        <p>Kind Regards, Jitu Web Solution</p>
+        <hr style="color:#854382;">
+        <p> Madhuban Apartment,  
+        New Bidipeth, 
+        Nagpur-440024,
+        Maharashtra</p>
+         <p>www.jituwebsolution.co.in</p>
+         <p>8483931721</p>
+         <img src="../public/img/jitu-logo.png" width="563" height="101" style="margin-right:0px" class="CToWUd a6T" data-bit="iit" tabindex="0">
+          
+        `;
 
         const emailOptions = {
             to: user.email,

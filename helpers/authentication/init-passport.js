@@ -1,7 +1,7 @@
 const LocalStrategy = require('passport-local').Strategy;
 const bcrypt = require('bcryptjs');
 const logger = require('./winston');
-const User = require('../models/userModel');
+const User = require('../../models/registerModel');
 
 module.exports = (passport) => {
     try {
@@ -13,13 +13,13 @@ module.exports = (passport) => {
                     const user = await User.findOne({ where: { email } });
                     if (!user) {
                         const msg =
-                            'This email is not registered.<br>Please <a href="/user/register" class="alert-link">register</a> before trying to login.';
+                            'This email is not registered.<br>Please <a href="/register" class="alert-link">register</a> before trying to login.';
                         return done(null, false, { message: msg });
                     }
                     if (user.active !== true) {
                         return done(null, false, {
                             message:
-                                '<strong>Email not activated</strong>.\n Please activate using the link sent to your email. To resend activation link, click <a href="/user/sendActivationLink" class="alert-link text-blue">here</a>',
+                                '<strong>Email not activated</strong>.\n Please activate using the link sent to your email. To resend activation link, click <a href="/sendActivationLink" class="alert-link text-blue">here</a>',
                         });
                     }
                     // email is there, match password

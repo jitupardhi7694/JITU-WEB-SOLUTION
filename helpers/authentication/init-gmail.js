@@ -8,8 +8,8 @@ const transporter = nodemailer.createTransport({
     port: 465,
     secure: true, // true for 465, false for other ports
     auth: {
-        user: 'no-reply@dinshaws.co.in', // generated ethereal user
-        pass: 'No@reply123', // generated ethereal password
+        user: 'jituwebsolution7709@gmail.com', // generated ethereal user
+        pass: 'Jitu@1234', // generated ethereal password
     },
 });
 
@@ -17,12 +17,12 @@ const transporter = nodemailer.createTransport({
 async function sendEmails(mailOptions) {
     // check if mailOptions has all the required property, if not replace with default options
     const defaultOptions = {
-        from: 'Dinshaws Dairy Food <no-reply@dinshaws.co.in>',
-        to: 'no-reply@dinshaws.co.in',
+        from: 'Dinshaws Dairy Food <jituwebsolution7709@gmail.com>',
+        to: 'jituwebsolution7709@gmail.com',
         cc: '',
         bcc: '',
-        subject: 'Email from Dinshaws website ',
-        text: 'Default text of email from Dinshaws website ',
+        subject: 'Email from Jitu Web Solution ',
+        text: 'Default text of email from Jitu Web Solution ',
     };
     const normalizedEmailOptions = { ...defaultOptions, ...mailOptions };
     normalizedEmailOptions.html = normalizedEmailOptions.text; // copy text to add html option also

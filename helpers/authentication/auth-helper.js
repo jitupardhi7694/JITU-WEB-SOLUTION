@@ -7,7 +7,7 @@ function ensureAuthenticated(req, res, next) {
         return next();
     }
     req.flash('error_msg', 'Please log in to view this resource');
-    return res.redirect('/user/login');
+    return res.redirect('/login');
 }
 
 function ensureNotAuthenticated(req, res, next) {
@@ -45,7 +45,7 @@ function checkRoles(rolesArr) {
             return res.redirect('back');
         }
         // If the user is not authenticated, redirect them to the login page
-        return res.redirect('/user/login');
+        return res.redirect('/login');
     };
 }
 
@@ -68,7 +68,7 @@ const preventMultipleLogins = (req, res, next) => {
                 req.logout(() => {
                     req.session.destroy(() => {
                         res.clearCookie('connect.sid');
-                        res.redirect('/user/login');
+                        res.redirect('/login');
                     });
                 });
                 return;
@@ -80,32 +80,10 @@ const preventMultipleLogins = (req, res, next) => {
     next();
 };
 
-// const setMenuByRoles = (req, res, next) => {
-//     if (req.isAuthenticated()) {
-//         // console.log('UserRole:', req.user.role_id);
-//         switch (req.user.role_id) {
-//             case roles.USER:
-//                 // console.log('Admin Menu');
-//                 res.locals.menu = menuByRoles.adminMenu;
-//                 break;
-//             case roles.ADMIN:
-//                 // console.log('Owner Menu');
-//                 res.locals.menu = menuByRoles.ownerMenu;
-//                 break;
-
-//             default:
-//                 res.locals.menu = null;
-//         }
-//     }
-//     // console.log(res.locals.menu);
-//     next();
-// };
-
 module.exports = {
     ensureAuthenticated,
     ensureNotAuthenticated,
     ensureAdmin,
     checkRoles,
     preventMultipleLogins,
-    // setMenuByRoles,
 };
