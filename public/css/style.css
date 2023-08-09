@@ -11,7 +11,9 @@ body {
 .get-h-style {
     color: aqua;
 }
-
+.video-row {
+    width: auto !important;
+}
 #btn-back-to-top {
     position: fixed;
     bottom: 20px;
@@ -28,18 +30,33 @@ body {
 }
 
 .login-body {
-    margin: 139px 0;
+    margin: 208px 0;
+    width: -webkit-fill-available;
 }
 .register-body {
-    margin: 100px 0;
+    margin: 160px 0;
+    width: -webkit-fill-available;
+    position: absolute;
+}
+.forget-body {
+    margin: 215px 0;
+    width: -webkit-fill-available;
+    position: absolute;
 }
 
 .welcome-heading {
     font-weight: bold;
 }
+.login-absolute {
+    position: absolute;
+    place-items: center;
+    display: grid;
+}
 .welcome-ui {
     padding: 210px 0;
     font-family: 'Bungee Spice', cursive !important;
+    position: absolute;
+    width: -webkit-fill-available;
 }
 .bg {
     background-color: black;
@@ -75,14 +92,19 @@ body {
     background-color: rgb(254, 93, 168) !important;
 }
 
-@media (max-width: 567px) {
+@media (max-width: 757px) {
     .login-body {
         margin: 160px 0;
         place-content: center;
         display: grid;
     }
     .register-body {
-        margin: 160px 0;
+        margin: 120px 0;
+        place-content: center;
+        display: grid;
+    }
+    .forget-body {
+        margin: 120px 0;
         place-content: center;
         display: grid;
     }
@@ -96,6 +118,11 @@ body {
         height: 22vh !important;
         width: 40vw !important;
     }
+
+    video {
+        margin: 171px 0 0 0 !important;
+    }
+
     .bg {
         background-color: black;
     }
