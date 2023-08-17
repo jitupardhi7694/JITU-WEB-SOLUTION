@@ -1,193 +1,34 @@
 const { validationResult } = require('express-validator');
 const logger = require('../helpers/winston');
-const createProfile = require('../models/createProfileModel');
-const sendActivationLinkEmail = require('../helpers/profileMailSend');
+const getInTouchModel = require('../models/getInTouchModel');
+const sendActivationLinkEmail = require('../helpers/authentication/getInTouchMail');
 
-const profileRegister = async (req, res) => {
-    res.render('create_your_profile');
+const getInTouch = async (req, res) => {
+    res.render('index');
 };
 
 // save
-const saveProfile = async (req, res, next) => {
-    const {
-        first_name,
-        middle_name,
-        last_name,
-        dob,
-        marital_status,
-        gender,
-        email,
-        mobile_number,
-        local_address,
-        permanent_address,
-        ssc_school,
-        ssc_pass_year,
-        ssc_grade,
-        hsc_school,
-        hsc_pass_year,
-        hsc_grade,
-        graduate_school,
-        graduate_pass_year,
-        graduate_grade,
-        pgraduate_school,
-        pgraduate_pass_year,
-        pgraduate_grade,
-        company_name1,
-        position1,
-        doj1,
-        dol1,
-        reason_fjc1,
-        company_name2,
-        position2,
-        doj2,
-        dol2,
-        reason_fjc2,
-        company_name3,
-        position3,
-        doj3,
-        dol3,
-        reason_fjc3,
-        company_name4,
-        position4,
-        doj4,
-        dol4,
-        reason_fjc4,
-        company_name5,
-        position5,
-        doj5,
-        dol5,
-        reason_fjc5,
-        person_name1,
-        contact_number1,
-        email1,
-        remarks1,
-        person_name2,
-        contact_number2,
-        email2,
-        remarks2,
-    } = req.body;
+const getInTouchRegister = async (req, res, next) => {
+    const { name, email, number, message } = req.body;
 
     const errors = validationResult(req).array(); // Retrieve validation errors
 
     if (errors.length > 0) {
-        return res.render('create_your_profile', {
+        return res.render('index', {
             errors,
-            first_name,
-            middle_name,
-            last_name,
-            dob,
-            marital_status,
-            gender,
+            name,
             email,
-            mobile_number,
-            local_address,
-            permanent_address,
-            ssc_school,
-            ssc_pass_year,
-            ssc_grade,
-            hsc_school,
-            hsc_pass_year,
-            hsc_grade,
-            graduate_school,
-            graduate_pass_year,
-            graduate_grade,
-            pgraduate_school,
-            pgraduate_pass_year,
-            pgraduate_grade,
-            company_name1,
-            position1,
-            doj1,
-            dol1,
-            reason_fjc1,
-            company_name2,
-            position2,
-            doj2,
-            dol2,
-            reason_fjc2,
-            company_name3,
-            position3,
-            doj3,
-            dol3,
-            reason_fjc3,
-            company_name4,
-            position4,
-            doj4,
-            dol4,
-            reason_fjc4,
-            company_name5,
-            position5,
-            doj5,
-            dol5,
-            reason_fjc5,
-            person_name1,
-            contact_number1,
-            email1,
-            remarks1,
-            person_name2,
-            contact_number2,
-            email2,
-            remarks2,
+            number,
+            message,
         });
     }
 
     try {
         const newProfile = new createProfile({
-            first_name,
-            middle_name,
-            last_name,
-            dob,
-            marital_status,
-            gender,
+            name,
             email,
-            mobile_number,
-            local_address,
-            permanent_address,
-            ssc_school,
-            ssc_pass_year,
-            ssc_grade,
-            hsc_school,
-            hsc_pass_year,
-            hsc_grade,
-            graduate_school,
-            graduate_pass_year,
-            graduate_grade,
-            pgraduate_school,
-            pgraduate_pass_year,
-            pgraduate_grade,
-            company_name1: company_name1 || null,
-            position1: position1 || null,
-            doj1: doj1 || null,
-            dol1: dol1 || null,
-
-            reason_fjc1: reason_fjc1 || null,
-            company_name2,
-            position2,
-            doj2: doj2 || null,
-            dol2: dol2 || null,
-            reason_fjc2,
-            company_name3,
-            position3,
-            doj3: doj3 || null,
-            dol3: dol3 || null,
-            reason_fjc3,
-            company_name4,
-            position4,
-            doj4: doj4 || null,
-            dol4: dol4 || null,
-            reason_fjc4,
-            company_name5,
-            position5,
-            doj5: doj5 || null,
-            dol5: dol5 || null,
-            reason_fjc5,
-            person_name1,
-            contact_number1,
-            email1,
-            remarks1,
-            person_name2,
-            contact_number2,
-            email2,
-            remarks2,
+            number,
+            message,
         });
         const savedCareerProfile = await newProfile.save();
         sendActivationLinkEmail(req, res, next, savedCareerProfile.email);
@@ -197,58 +38,45 @@ const saveProfile = async (req, res, next) => {
             'success_msg',
             'Successfully submitted your application please check your email .'
         );
-        return res.redirect(`/career`);
+        return res.redirect(`/`);
     } catch (error) {
         logger.error(error);
         return next(error);
     }
 };
 
-const jobProfileList = async (req, res) => {
-    const row = await createProfile.findAll();
-    res.render('masterDashboard/jobProfileTable', {
+const getTable = async (req, res) => {
+    const row = await getInTouchModel.findAll();
+    res.render('getInTouchTable', {
         row,
     });
 };
 
-const deleteJob = async (req, res) => {
-    await deleteJobOpening(req, res);
+const deleteTable = async (req, res) => {
+    await deleteTouchTable(req, res);
 };
 
 // Delete Job Opening from Database
-async function deleteJobOpening(req, res) {
+async function deleteTouchTable(req, res) {
     const { id } = req.params;
     try {
-        await createProfile.destroy({
+        await getInTouchModel.destroy({
             where: {
                 id,
             },
         });
-
         req.flash('success_msg', 'Data deleted successfully.');
-        return res.redirect('/career/job-profile-list');
+        return res.redirect('/');
     } catch (error) {
-        if (error) {
-            if (
-                error.message.includes(
-                    'Cannot delete or update a parent row: a foreign key constraint fails'
-                )
-            ) {
-                req.flash(
-                    'error_msg',
-                    'Cannot delete this record as it is already in use.'
-                );
-                return res.redirect('/career/job-profile-list');
-            }
-            logger.error("Can't delete User Roles from the database ->", error);
-        }
+        logger.error('', error);
         return null;
     }
 }
 
 module.exports = {
-    profileRegister,
-    saveProfile,
-    jobProfileList,
-    deleteJob,
+    getInTouch,
+    getInTouchRegister,
+    getTable,
+    deleteTable,
+    deleteTouchTable,
 };
