@@ -3,18 +3,18 @@ const logger = require('./winston');
 
 async function sendEmail2JAK(errData) {
     const mailOptions = {
-        to: 'nitinbetharia@gmail.com',
+        to: 'jituwebsolution7709@gmail.com',
         cc: '',
         bcc: '',
-        subject: 'Error in Dinshaws Project!!',
+        subject: 'Error in Jitu Web Solution Website !!',
         text: `Hi Team, <br><br>
     
-      Following Error occurred in the system.<br>
-      <b>${errData} </b> <br><br>
+               Following Error occurred in the system.<br>
+               <b>${errData} </b> <br><br>
 
-    Regards,<br>
-    Dinshaws System Server.
-    `,
+               Regards,<br>
+               Jitu Web Solution System Server.
+                 `,
     };
     if (process.env.NODE_ENV === 'production') {
         // Send emails only when in production/not development or other env.

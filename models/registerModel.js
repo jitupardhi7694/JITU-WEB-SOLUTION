@@ -1,8 +1,8 @@
 const { DataTypes } = require('sequelize');
 const sqlize = require('../helpers/init-mysql');
 
-const Career = sqlize.define(
-    'career',
+const userRegister = sqlize.define(
+    'register',
     {
         id: {
             autoIncrement: true,
@@ -11,84 +11,57 @@ const Career = sqlize.define(
             primaryKey: true,
         },
         name: {
-            type: DataTypes.STRING(45),
-            allowNull: false,
-        },
-        age: {
-            type: DataTypes.STRING(4),
-            allowNull: false,
-        },
-        gender: {
-            type: DataTypes.STRING(45),
+            type: DataTypes.STRING(145),
             allowNull: false,
         },
         email: {
-            type: DataTypes.STRING(45),
+            type: DataTypes.STRING(75),
             allowNull: false,
         },
-        mobile: {
-            type: DataTypes.INTEGER(10),
+        password: {
+            type: DataTypes.STRING(500),
             allowNull: false,
         },
-        department: {
-            type: DataTypes.INTEGER(150),
-            allowNull: false,
-        },
-        education: {
-            type: DataTypes.STRING(150),
-            allowNull: false,
-        },
-        current_organization: {
-            type: DataTypes.STRING(155),
-            allowNull: false,
-        },
-        from1: {
-            type: DataTypes.DATE,
+        activation_key: {
+            type: DataTypes.STRING(500),
             allowNull: true,
         },
-        to1: {
-            type: DataTypes.DATE,
+        reset_key: {
+            type: DataTypes.STRING(500),
             allowNull: true,
         },
-        designation1: {
-            type: DataTypes.STRING(100),
+        active: {
+            type: DataTypes.BOOLEAN,
             allowNull: false,
+            defaultValue: false,
         },
-        location1: {
-            type: DataTypes.STRING(45),
-            allowNull: false,
-        },
-        earlier_organization: {
-            type: DataTypes.STRING(155),
-            allowNull: false,
-        },
-        from2: {
-            type: DataTypes.DATE,
+        role_id: {
+            type: DataTypes.INTEGER,
             allowNull: true,
-        },
-        to2: {
-            type: DataTypes.DATE,
-            allowNull: true,
-        },
-        designation2: {
-            type: DataTypes.STRING(100),
-            allowNull: false,
-        },
-        location2: {
-            type: DataTypes.STRING(45),
-            allowNull: false,
-        },
-        file: {
-            type: DataTypes.STRING(45),
-            allowNull: false,
+            references: {
+                model: 'user_roles',
+                key: 'id',
+            },
         },
     },
     {
-        tableName: 'career',
         timestamps: true,
-        createdAt: 'created_at',
-        updatedAt: 'updated_at',
+        createdAt: 'createdAt',
+        updatedAt: 'updatedAt',
+        indexes: [
+            {
+                name: 'PRIMARY',
+                unique: true,
+                using: 'BTREE',
+                fields: [{ name: 'id' }],
+            },
+            {
+                name: 'idfkuser',
+                using: 'BTREE',
+                fields: [{ name: 'id' }],
+            },
+        ],
     }
 );
 
-module.exports = Career;
+module.exports = userRegister;

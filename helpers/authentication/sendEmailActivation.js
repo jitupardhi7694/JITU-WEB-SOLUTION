@@ -45,7 +45,6 @@ const sendActivationLink = async (req, res, next, email) => {
             to: user.email,
             cc: '',
             bcc: '',
-            // replyTo: 'customerdelight@dinshaws.co.in',
             subject: `Jitu With Code User Verification Email`,
             text: emailBodyText,
         };

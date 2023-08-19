@@ -9,7 +9,7 @@ const getInTouch = async (req, res) => {
 
 // save
 const getInTouchRegister = async (req, res, next) => {
-    const { name, email, number, message } = req.body;
+    const { name, email, number, location, message } = req.body;
 
     const errors = validationResult(req).array(); // Retrieve validation errors
 
@@ -19,6 +19,7 @@ const getInTouchRegister = async (req, res, next) => {
             name,
             email,
             number,
+            location,
             message,
         });
     }
@@ -28,10 +29,17 @@ const getInTouchRegister = async (req, res, next) => {
             name,
             email,
             number,
+            location,
             message,
         });
         const savedCareerProfile = await newProfile.save();
-        sendActivationLinkEmail(req, res, next, savedCareerProfile.email);
+        sendActivationLinkEmail(
+            req,
+            res,
+            next,
+            savedCareerProfile.email,
+            savedCareerProfile.id
+        );
 
         console.log('successfully submitted your application =>');
         req.flash(

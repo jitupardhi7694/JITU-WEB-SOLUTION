@@ -5,6 +5,8 @@ switch (process.env.NODE_ENV) {
             PROTOCOL: 'http',
             HOST: '140.238.167.36',
             PORT: '8000',
+            REPLY_EMAIL: 'jituwebsolution7709@gmail.com',
+            GET_TOUCH_EMAIL: 'jituwebsolution7709@gmail.com',
         };
         break;
     case 'test':
@@ -12,6 +14,8 @@ switch (process.env.NODE_ENV) {
             PROTOCOL: 'http',
             HOST: 'dinshaws.org',
             PORT: process.env.PORT || 4000,
+            REPLY_EMAIL: 'jituwebsolution7709@gmail.com',
+            GET_TOUCH_EMAIL: 'jituwebsolution7709@gmail.com',
         };
         break;
     default:
@@ -20,6 +24,8 @@ switch (process.env.NODE_ENV) {
             PROTOCOL: 'http',
             HOST: 'localhost',
             PORT: process.env.PORT || 4000,
+            REPLY_EMAIL: 'jituwebsolution7709@gmail.com',
+            GET_TOUCH_EMAIL: 'jituwebsolution7709@gmail.com',
         };
         break;
 }

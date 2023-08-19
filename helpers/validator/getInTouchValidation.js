@@ -6,11 +6,14 @@ var getInValidation = () => [
         .isLength({ min: 2, max: 45 })
         .withMessage('Please enter minimum 2 character and maximum 45'),
     body('email').isEmail().withMessage('Email is required'),
-    body('number').withMessage('Please enter Phonen number'),
+    body('number')
+        .isLength({ max: 10 })
+        .withMessage('Please enter Phonen number'),
+    body('location').withMessage('Please enter location'),
     body('message')
         .isEmail()
         .withMessage('message is required')
-        .isLength({ min: 10, max: 200 })
+        .isLength({ min: 5, max: 200 })
         .withMessage('Please enter minimum 10 character and maximum 200'),
 ];
 

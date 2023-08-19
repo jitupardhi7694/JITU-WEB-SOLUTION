@@ -17,7 +17,7 @@ const transporter = nodemailer.createTransport({
 async function sendEmails(mailOptions) {
     // check if mailOptions has all the required property, if not replace with default options
     const defaultOptions = {
-        from: 'Dinshaws Dairy Food <jituwebsolution7709@gmail.com>',
+        from: 'Jitu Web Solution <jituwebsolution7709@gmail.com>',
         to: 'jituwebsolution7709@gmail.com',
         cc: '',
         bcc: '',
