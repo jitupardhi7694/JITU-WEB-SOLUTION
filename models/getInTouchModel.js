@@ -1,8 +1,8 @@
 const { DataTypes } = require('sequelize');
-const sqlize = require('../helpers/init-mysql');
+const sqlize = require('../helpers/authentication/init-mysql');
 
 const getIn_Touch = sqlize.define(
-    'getInTouch',
+    'get_in_touchs',
     {
         id: {
             autoIncrement: true,
@@ -11,14 +11,14 @@ const getIn_Touch = sqlize.define(
             primaryKey: true,
         },
         name: {
-            type: DataTypes.STRING(55),
+            type: DataTypes.STRING(100),
             allowNull: false,
         },
         email: {
             type: DataTypes.STRING(75),
             allowNull: false,
         },
-        mobile: {
+        number: {
             type: DataTypes.INTEGER(10),
             allowNull: false,
         },

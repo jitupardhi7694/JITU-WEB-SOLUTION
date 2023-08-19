@@ -4,9 +4,8 @@ const userRole = require('../models/userRoleModel');
 
 const getUserRole = async (req, res) => {
     const rows = await userRole.findAll();
-    res.render('userDashboard/userRole', {
+    res.render('/userRole', {
         rows,
-        isLogin: false,
     });
 };
 // save

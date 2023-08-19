@@ -1,23 +1,33 @@
 const express = require('express');
 const rateLimitter = require('../helpers/authentication/rate-limiter');
-
+const getInController = require('../controller/getInTouchController');
+const userController = require('../controller/userController');
 const router = express.Router();
 
 router.use(rateLimitter);
 
-router.get('/', function (req, res) {
-    res.render('index');
+router.get('/', async (req, res) => {
+    await getInController.getInTouch(req, res);
 });
-router.get('/login', function (req, res) {
+router.post('/', async (req, res) => {
+    await getInController.getInTouchRegister(req, res);
+});
+router.get('/login', async (req, res) => {
     res.render('signIn');
 });
-router.get('/register', function (req, res) {
+router.get('/register', async (req, res) => {
     res.render('signUp');
 });
-router.get('/forget-password', function (req, res) {
+router.get('/dashboard', async (req, res) => {
+    res.render('dashboard');
+});
+router.get('/user_roles', async (req, res) => {
+    res.render('userRole');
+});
+router.get('/forget-password', async (req, res) => {
     res.render('forgetPassword');
 });
-router.get('/sendActivationLink', function (req, res) {
+router.get('/sendActivationLink', async (req, res) => {
     res.render('emailVerification');
 });
 

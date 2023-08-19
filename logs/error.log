@@ -1,0 +1,502 @@
+[8/19/2023, 1:26:11 PM] error: uncaughtException: Please install mysql2 package manually
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (D:\NodeJs-JitendraProject\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:55:15)
+    at new ConnectionManager (D:\NodeJs-JitendraProject\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:30:21)
+    at new MysqlDialect (D:\NodeJs-JitendraProject\node_modules\sequelize\lib\dialects\mysql\index.js:13:30)
+    at new Sequelize (D:\NodeJs-JitendraProject\node_modules\sequelize\lib\sequelize.js:194:20)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\helpers\authentication\init-mysql.js:5:16)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[8/19/2023, 1:26:58 PM] error: uncaughtException: Cannot find module '../models/userModel'
+Require stack:
+- D:\NodeJs-JitendraProject\helpers\authentication\sendResetPasswordEmail.js
+- D:\NodeJs-JitendraProject\controller\userController.js
+- D:\NodeJs-JitendraProject\routes\indexRoute.js
+- D:\NodeJs-JitendraProject\app.js
+Error: Cannot find module '../models/userModel'
+Require stack:
+- D:\NodeJs-JitendraProject\helpers\authentication\sendResetPasswordEmail.js
+- D:\NodeJs-JitendraProject\controller\userController.js
+- D:\NodeJs-JitendraProject\routes\indexRoute.js
+- D:\NodeJs-JitendraProject\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\helpers\authentication\sendResetPasswordEmail.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[8/19/2023, 1:27:51 PM] error: uncaughtException: Cannot find module '../models/userModel'
+Require stack:
+- D:\NodeJs-JitendraProject\helpers\authentication\sendResetPasswordEmail.js
+- D:\NodeJs-JitendraProject\controller\userController.js
+- D:\NodeJs-JitendraProject\routes\indexRoute.js
+- D:\NodeJs-JitendraProject\app.js
+Error: Cannot find module '../models/userModel'
+Require stack:
+- D:\NodeJs-JitendraProject\helpers\authentication\sendResetPasswordEmail.js
+- D:\NodeJs-JitendraProject\controller\userController.js
+- D:\NodeJs-JitendraProject\routes\indexRoute.js
+- D:\NodeJs-JitendraProject\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\helpers\authentication\sendResetPasswordEmail.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[8/19/2023, 1:27:53 PM] error: uncaughtException: Cannot find module '../models/userModel'
+Require stack:
+- D:\NodeJs-JitendraProject\helpers\authentication\sendResetPasswordEmail.js
+- D:\NodeJs-JitendraProject\controller\userController.js
+- D:\NodeJs-JitendraProject\routes\indexRoute.js
+- D:\NodeJs-JitendraProject\app.js
+Error: Cannot find module '../models/userModel'
+Require stack:
+- D:\NodeJs-JitendraProject\helpers\authentication\sendResetPasswordEmail.js
+- D:\NodeJs-JitendraProject\controller\userController.js
+- D:\NodeJs-JitendraProject\routes\indexRoute.js
+- D:\NodeJs-JitendraProject\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\helpers\authentication\sendResetPasswordEmail.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[8/19/2023, 1:28:06 PM] error: uncaughtException: Cannot find module '../models/userModel'
+Require stack:
+- D:\NodeJs-JitendraProject\helpers\authentication\sendResetPasswordEmail.js
+- D:\NodeJs-JitendraProject\controller\userController.js
+- D:\NodeJs-JitendraProject\routes\indexRoute.js
+- D:\NodeJs-JitendraProject\app.js
+Error: Cannot find module '../models/userModel'
+Require stack:
+- D:\NodeJs-JitendraProject\helpers\authentication\sendResetPasswordEmail.js
+- D:\NodeJs-JitendraProject\controller\userController.js
+- D:\NodeJs-JitendraProject\routes\indexRoute.js
+- D:\NodeJs-JitendraProject\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\helpers\authentication\sendResetPasswordEmail.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[8/19/2023, 1:28:28 PM] error: uncaughtException: Cannot find module '../models/userModel'
+Require stack:
+- D:\NodeJs-JitendraProject\helpers\authentication\sendResetPasswordEmail.js
+- D:\NodeJs-JitendraProject\controller\userController.js
+- D:\NodeJs-JitendraProject\routes\indexRoute.js
+- D:\NodeJs-JitendraProject\app.js
+Error: Cannot find module '../models/userModel'
+Require stack:
+- D:\NodeJs-JitendraProject\helpers\authentication\sendResetPasswordEmail.js
+- D:\NodeJs-JitendraProject\controller\userController.js
+- D:\NodeJs-JitendraProject\routes\indexRoute.js
+- D:\NodeJs-JitendraProject\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\helpers\authentication\sendResetPasswordEmail.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[8/19/2023, 1:28:39 PM] error: uncaughtException: Cannot find module '../models/userModel'
+Require stack:
+- D:\NodeJs-JitendraProject\helpers\authentication\sendResetPasswordEmail.js
+- D:\NodeJs-JitendraProject\controller\userController.js
+- D:\NodeJs-JitendraProject\routes\indexRoute.js
+- D:\NodeJs-JitendraProject\app.js
+Error: Cannot find module '../models/userModel'
+Require stack:
+- D:\NodeJs-JitendraProject\helpers\authentication\sendResetPasswordEmail.js
+- D:\NodeJs-JitendraProject\controller\userController.js
+- D:\NodeJs-JitendraProject\routes\indexRoute.js
+- D:\NodeJs-JitendraProject\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\helpers\authentication\sendResetPasswordEmail.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[8/19/2023, 1:28:41 PM] error: uncaughtException: Cannot find module '/init-gmail'
+Require stack:
+- D:\NodeJs-JitendraProject\helpers\authentication\getInTouchMail.js
+- D:\NodeJs-JitendraProject\controller\getInTouchController.js
+- D:\NodeJs-JitendraProject\routes\indexRoute.js
+- D:\NodeJs-JitendraProject\app.js
+Error: Cannot find module '/init-gmail'
+Require stack:
+- D:\NodeJs-JitendraProject\helpers\authentication\getInTouchMail.js
+- D:\NodeJs-JitendraProject\controller\getInTouchController.js
+- D:\NodeJs-JitendraProject\routes\indexRoute.js
+- D:\NodeJs-JitendraProject\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\helpers\authentication\getInTouchMail.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[8/19/2023, 1:28:56 PM] error: uncaughtException: Cannot find module './'
+Require stack:
+- D:\NodeJs-JitendraProject\helpers\authentication\getInTouchMail.js
+- D:\NodeJs-JitendraProject\controller\getInTouchController.js
+- D:\NodeJs-JitendraProject\routes\indexRoute.js
+- D:\NodeJs-JitendraProject\app.js
+Error: Cannot find module './'
+Require stack:
+- D:\NodeJs-JitendraProject\helpers\authentication\getInTouchMail.js
+- D:\NodeJs-JitendraProject\controller\getInTouchController.js
+- D:\NodeJs-JitendraProject\routes\indexRoute.js
+- D:\NodeJs-JitendraProject\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\helpers\authentication\getInTouchMail.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[8/19/2023, 1:29:04 PM] error: uncaughtException: Cannot find module '../models/userModel'
+Require stack:
+- D:\NodeJs-JitendraProject\helpers\authentication\sendResetPasswordEmail.js
+- D:\NodeJs-JitendraProject\controller\userController.js
+- D:\NodeJs-JitendraProject\routes\indexRoute.js
+- D:\NodeJs-JitendraProject\app.js
+Error: Cannot find module '../models/userModel'
+Require stack:
+- D:\NodeJs-JitendraProject\helpers\authentication\sendResetPasswordEmail.js
+- D:\NodeJs-JitendraProject\controller\userController.js
+- D:\NodeJs-JitendraProject\routes\indexRoute.js
+- D:\NodeJs-JitendraProject\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\helpers\authentication\sendResetPasswordEmail.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[8/19/2023, 1:29:08 PM] error: uncaughtException: Cannot find module '../models/userModel'
+Require stack:
+- D:\NodeJs-JitendraProject\helpers\authentication\sendResetPasswordEmail.js
+- D:\NodeJs-JitendraProject\controller\userController.js
+- D:\NodeJs-JitendraProject\routes\indexRoute.js
+- D:\NodeJs-JitendraProject\app.js
+Error: Cannot find module '../models/userModel'
+Require stack:
+- D:\NodeJs-JitendraProject\helpers\authentication\sendResetPasswordEmail.js
+- D:\NodeJs-JitendraProject\controller\userController.js
+- D:\NodeJs-JitendraProject\routes\indexRoute.js
+- D:\NodeJs-JitendraProject\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\helpers\authentication\sendResetPasswordEmail.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[8/19/2023, 1:29:39 PM] error: uncaughtException: Cannot find module '../models/userModel'
+Require stack:
+- D:\NodeJs-JitendraProject\helpers\authentication\sendResetPasswordEmail.js
+- D:\NodeJs-JitendraProject\controller\userController.js
+- D:\NodeJs-JitendraProject\routes\indexRoute.js
+- D:\NodeJs-JitendraProject\app.js
+Error: Cannot find module '../models/userModel'
+Require stack:
+- D:\NodeJs-JitendraProject\helpers\authentication\sendResetPasswordEmail.js
+- D:\NodeJs-JitendraProject\controller\userController.js
+- D:\NodeJs-JitendraProject\routes\indexRoute.js
+- D:\NodeJs-JitendraProject\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\helpers\authentication\sendResetPasswordEmail.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[8/19/2023, 1:29:45 PM] error: uncaughtException: Cannot find module '../models/userModel'
+Require stack:
+- D:\NodeJs-JitendraProject\helpers\authentication\sendResetPasswordEmail.js
+- D:\NodeJs-JitendraProject\controller\userController.js
+- D:\NodeJs-JitendraProject\routes\indexRoute.js
+- D:\NodeJs-JitendraProject\app.js
+Error: Cannot find module '../models/userModel'
+Require stack:
+- D:\NodeJs-JitendraProject\helpers\authentication\sendResetPasswordEmail.js
+- D:\NodeJs-JitendraProject\controller\userController.js
+- D:\NodeJs-JitendraProject\routes\indexRoute.js
+- D:\NodeJs-JitendraProject\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\helpers\authentication\sendResetPasswordEmail.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[8/19/2023, 1:32:53 PM] error: uncaughtException: Cannot find module '../config/host-config'
+Require stack:
+- D:\NodeJs-JitendraProject\helpers\authentication\sendResetPasswordEmail.js
+- D:\NodeJs-JitendraProject\controller\userController.js
+- D:\NodeJs-JitendraProject\routes\indexRoute.js
+- D:\NodeJs-JitendraProject\app.js
+Error: Cannot find module '../config/host-config'
+Require stack:
+- D:\NodeJs-JitendraProject\helpers\authentication\sendResetPasswordEmail.js
+- D:\NodeJs-JitendraProject\controller\userController.js
+- D:\NodeJs-JitendraProject\routes\indexRoute.js
+- D:\NodeJs-JitendraProject\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\helpers\authentication\sendResetPasswordEmail.js:5:14)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[8/19/2023, 1:50:03 PM] error: uncaughtException: Cannot destructure property 'name' of 'req.body' as it is undefined.
+TypeError: Cannot destructure property 'name' of 'req.body' as it is undefined.
+    at Object.getInTouchRegister (D:\NodeJs-JitendraProject\controller\getInTouchController.js:12:13)
+    at D:\NodeJs-JitendraProject\routes\indexRoute.js:13:27
+    at Layer.handle [as handle_request] (D:\NodeJs-JitendraProject\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\NodeJs-JitendraProject\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\NodeJs-JitendraProject\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\NodeJs-JitendraProject\node_modules\express\lib\router\layer.js:95:5)
+    at D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:280:10)
+    at D:\NodeJs-JitendraProject\node_modules\express-rate-limit\dist\index.cjs:492:7
+[8/19/2023, 2:18:06 PM] error: uncaughtException: Cannot destructure property 'name' of 'req.body' as it is undefined.
+TypeError: Cannot destructure property 'name' of 'req.body' as it is undefined.
+    at Object.getInTouchRegister (D:\NodeJs-JitendraProject\controller\getInTouchController.js:12:13)
+    at D:\NodeJs-JitendraProject\routes\indexRoute.js:13:27
+    at Layer.handle [as handle_request] (D:\NodeJs-JitendraProject\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\NodeJs-JitendraProject\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\NodeJs-JitendraProject\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\NodeJs-JitendraProject\node_modules\express\lib\router\layer.js:95:5)
+    at D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:280:10)
+    at D:\NodeJs-JitendraProject\node_modules\express-rate-limit\dist\index.cjs:492:7
+[8/19/2023, 2:20:31 PM] error: uncaughtException: Cannot destructure property 'id' of 'req.body' as it is undefined.
+TypeError: Cannot destructure property 'id' of 'req.body' as it is undefined.
+    at Object.getInTouchRegister (D:\NodeJs-JitendraProject\controller\getInTouchController.js:12:12)
+    at D:\NodeJs-JitendraProject\routes\indexRoute.js:13:27
+    at Layer.handle [as handle_request] (D:\NodeJs-JitendraProject\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\NodeJs-JitendraProject\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\NodeJs-JitendraProject\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\NodeJs-JitendraProject\node_modules\express\lib\router\layer.js:95:5)
+    at D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:280:10)
+    at D:\NodeJs-JitendraProject\node_modules\express-rate-limit\dist\index.cjs:492:7
+[8/19/2023, 2:21:45 PM] error: uncaughtException: Cannot destructure property 'name' of 'req.body' as it is undefined.
+TypeError: Cannot destructure property 'name' of 'req.body' as it is undefined.
+    at Object.getInTouchRegister (D:\NodeJs-JitendraProject\controller\getInTouchController.js:12:13)
+    at D:\NodeJs-JitendraProject\routes\indexRoute.js:13:27
+    at Layer.handle [as handle_request] (D:\NodeJs-JitendraProject\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\NodeJs-JitendraProject\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\NodeJs-JitendraProject\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\NodeJs-JitendraProject\node_modules\express\lib\router\layer.js:95:5)
+    at D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:280:10)
+    at D:\NodeJs-JitendraProject\node_modules\express-rate-limit\dist\index.cjs:492:7
+[8/19/2023, 2:23:48 PM] error: uncaughtException: Cannot destructure property 'name' of 'req.body' as it is undefined.
+TypeError: Cannot destructure property 'name' of 'req.body' as it is undefined.
+    at Object.getInTouchRegister (D:\NodeJs-JitendraProject\controller\getInTouchController.js:12:13)
+    at D:\NodeJs-JitendraProject\routes\indexRoute.js:13:27
+    at Layer.handle [as handle_request] (D:\NodeJs-JitendraProject\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\NodeJs-JitendraProject\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\NodeJs-JitendraProject\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\NodeJs-JitendraProject\node_modules\express\lib\router\layer.js:95:5)
+    at D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:280:10)
+    at D:\NodeJs-JitendraProject\node_modules\express-rate-limit\dist\index.cjs:492:7
+[8/19/2023, 2:25:12 PM] error: uncaughtException: Cannot destructure property 'id' of 'req.body' as it is undefined.
+TypeError: Cannot destructure property 'id' of 'req.body' as it is undefined.
+    at Object.getInTouchRegister (D:\NodeJs-JitendraProject\controller\getInTouchController.js:12:13)
+    at D:\NodeJs-JitendraProject\routes\indexRoute.js:13:27
+    at Layer.handle [as handle_request] (D:\NodeJs-JitendraProject\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\NodeJs-JitendraProject\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\NodeJs-JitendraProject\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\NodeJs-JitendraProject\node_modules\express\lib\router\layer.js:95:5)
+    at D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:280:10)
+    at D:\NodeJs-JitendraProject\node_modules\express-rate-limit\dist\index.cjs:492:7
+[8/19/2023, 2:25:50 PM] error: uncaughtException: Cannot destructure property 'id' of 'req.body' as it is undefined.
+TypeError: Cannot destructure property 'id' of 'req.body' as it is undefined.
+    at Object.getInTouchRegister (D:\NodeJs-JitendraProject\controller\getInTouchController.js:12:13)
+    at D:\NodeJs-JitendraProject\routes\indexRoute.js:13:27
+    at Layer.handle [as handle_request] (D:\NodeJs-JitendraProject\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\NodeJs-JitendraProject\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\NodeJs-JitendraProject\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\NodeJs-JitendraProject\node_modules\express\lib\router\layer.js:95:5)
+    at D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:280:10)
+    at D:\NodeJs-JitendraProject\node_modules\express-rate-limit\dist\index.cjs:492:7
+[8/19/2023, 2:28:41 PM] error: uncaughtException: Cannot destructure property 'id' of 'req.body' as it is undefined.
+TypeError: Cannot destructure property 'id' of 'req.body' as it is undefined.
+    at Object.getInTouchRegister (D:\NodeJs-JitendraProject\controller\getInTouchController.js:12:13)
+    at D:\NodeJs-JitendraProject\routes\indexRoute.js:13:27
+    at Layer.handle [as handle_request] (D:\NodeJs-JitendraProject\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\NodeJs-JitendraProject\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\NodeJs-JitendraProject\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\NodeJs-JitendraProject\node_modules\express\lib\router\layer.js:95:5)
+    at D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:280:10)
+    at D:\NodeJs-JitendraProject\node_modules\express-rate-limit\dist\index.cjs:492:7
+[8/19/2023, 2:29:08 PM] error: uncaughtException: Cannot destructure property 'id' of 'req.body' as it is undefined.
+TypeError: Cannot destructure property 'id' of 'req.body' as it is undefined.
+    at Object.getInTouchRegister (D:\NodeJs-JitendraProject\controller\getInTouchController.js:12:13)
+    at D:\NodeJs-JitendraProject\routes\indexRoute.js:13:27
+    at Layer.handle [as handle_request] (D:\NodeJs-JitendraProject\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\NodeJs-JitendraProject\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\NodeJs-JitendraProject\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\NodeJs-JitendraProject\node_modules\express\lib\router\layer.js:95:5)
+    at D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:280:10)
+    at D:\NodeJs-JitendraProject\node_modules\express-rate-limit\dist\index.cjs:492:7
+[8/19/2023, 2:29:23 PM] error: uncaughtException: Cannot destructure property 'id' of 'req.body' as it is undefined.
+TypeError: Cannot destructure property 'id' of 'req.body' as it is undefined.
+    at Object.getInTouchRegister (D:\NodeJs-JitendraProject\controller\getInTouchController.js:12:13)
+    at D:\NodeJs-JitendraProject\routes\indexRoute.js:13:27
+    at Layer.handle [as handle_request] (D:\NodeJs-JitendraProject\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\NodeJs-JitendraProject\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\NodeJs-JitendraProject\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\NodeJs-JitendraProject\node_modules\express\lib\router\layer.js:95:5)
+    at D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:280:10)
+    at D:\NodeJs-JitendraProject\node_modules\express-rate-limit\dist\index.cjs:492:7
+[8/19/2023, 2:31:02 PM] error: uncaughtException: Cannot destructure property 'name' of 'req.body' as it is undefined.
+TypeError: Cannot destructure property 'name' of 'req.body' as it is undefined.
+    at Object.getInTouchRegister (D:\NodeJs-JitendraProject\controller\getInTouchController.js:12:13)
+    at D:\NodeJs-JitendraProject\routes\indexRoute.js:13:27
+    at Layer.handle [as handle_request] (D:\NodeJs-JitendraProject\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\NodeJs-JitendraProject\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\NodeJs-JitendraProject\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\NodeJs-JitendraProject\node_modules\express\lib\router\layer.js:95:5)
+    at D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:280:10)
+    at D:\NodeJs-JitendraProject\node_modules\express-rate-limit\dist\index.cjs:492:7
+[8/19/2023, 2:35:19 PM] error: uncaughtException: Cannot destructure property 'name' of 'req.body' as it is undefined.
+TypeError: Cannot destructure property 'name' of 'req.body' as it is undefined.
+    at Object.getInTouchRegister (D:\NodeJs-JitendraProject\controller\getInTouchController.js:12:13)
+    at D:\NodeJs-JitendraProject\routes\indexRoute.js:13:27
+    at Layer.handle [as handle_request] (D:\NodeJs-JitendraProject\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\NodeJs-JitendraProject\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\NodeJs-JitendraProject\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\NodeJs-JitendraProject\node_modules\express\lib\router\layer.js:95:5)
+    at D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:280:10)
+    at D:\NodeJs-JitendraProject\node_modules\express-rate-limit\dist\index.cjs:492:7
+[8/19/2023, 2:37:51 PM] error: notNull Violation: get_in_touchs.mobile cannot be null
+[8/19/2023, 2:37:51 PM] error: uncaughtException: next is not a function
+TypeError: next is not a function
+    at Object.getInTouchRegister (D:\NodeJs-JitendraProject\controller\getInTouchController.js:52:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\NodeJs-JitendraProject\routes\indexRoute.js:13:5
+[8/19/2023, 2:39:34 PM] error: notNull Violation: get_in_touchs.num cannot be null
+[8/19/2023, 2:39:34 PM] error: uncaughtException: next is not a function
+TypeError: next is not a function
+    at Object.getInTouchRegister (D:\NodeJs-JitendraProject\controller\getInTouchController.js:52:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\NodeJs-JitendraProject\routes\indexRoute.js:13:5
+[8/19/2023, 2:39:39 PM] error: Unknown column 'created_at' in 'field list'
+[8/19/2023, 2:39:39 PM] error: uncaughtException: next is not a function
+TypeError: next is not a function
+    at Object.getInTouchRegister (D:\NodeJs-JitendraProject\controller\getInTouchController.js:52:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\NodeJs-JitendraProject\routes\indexRoute.js:13:5
+[8/19/2023, 2:40:15 PM] error: Unknown column 'created_at' in 'field list'
+[8/19/2023, 2:40:15 PM] error: uncaughtException: ne is not defined
+ReferenceError: ne is not defined
+    at Object.getInTouchRegister (D:\NodeJs-JitendraProject\controller\getInTouchController.js:52:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\NodeJs-JitendraProject\routes\indexRoute.js:13:5
+[8/19/2023, 2:40:24 PM] error: Unknown column 'created_at' in 'field list'
+[8/19/2023, 2:41:52 PM] error: req.flash is not a function
+[8/19/2023, 2:46:44 PM] error: req.flash is not a function
+[8/19/2023, 2:46:44 PM] error: req.flash is not a function
+[8/19/2023, 2:46:53 PM] error: req.flash is not a function
+[8/19/2023, 2:47:32 PM] error: req.flash is not a function
+[8/19/2023, 2:48:00 PM] error: req.flash is not a function
+[8/19/2023, 2:48:09 PM] error: req.flash is not a function
+[8/19/2023, 2:54:20 PM] error: uncaughtException: Cannot find module './routes/homeRoute'
+Require stack:
+- D:\NodeJs-JitendraProject\app.js
+Error: Cannot find module './routes/homeRoute'
+Require stack:
+- D:\NodeJs-JitendraProject\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:66:14)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+[8/19/2023, 2:54:56 PM] error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Function.listen (D:\NodeJs-JitendraProject\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:68:5)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)

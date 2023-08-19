@@ -12,8 +12,8 @@ switch (process.env.NODE_ENV) {
     case 'test':
         hostConfig = {
             PROTOCOL: 'http',
-            HOST: 'dinshaws.org',
-            PORT: process.env.PORT || 4000,
+            HOST: 'jituwebsolution.org',
+            PORT: process.env.PORT || 3000,
             REPLY_EMAIL: 'jituwebsolution7709@gmail.com',
             GET_TOUCH_EMAIL: 'jituwebsolution7709@gmail.com',
         };
@@ -23,7 +23,7 @@ switch (process.env.NODE_ENV) {
         hostConfig = {
             PROTOCOL: 'http',
             HOST: 'localhost',
-            PORT: process.env.PORT || 4000,
+            PORT: process.env.PORT || 3000,
             REPLY_EMAIL: 'jituwebsolution7709@gmail.com',
             GET_TOUCH_EMAIL: 'jituwebsolution7709@gmail.com',
         };

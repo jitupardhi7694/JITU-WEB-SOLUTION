@@ -46,7 +46,7 @@ const sendActivationLink = async (req, res, email, id) => {
             to: user.email,
             cc: '',
             bcc: '',
-            // replyTo: 'customerdelight@dinshaws.co.in',
+            replyTo: config.REPLY_EMAIL,
             subject: emailSubject,
             text: emailBodyText,
         };
@@ -74,10 +74,8 @@ const sendActivationLink = async (req, res, email, id) => {
         sendEmails(InternalEmailOptions);
 
         user.activation_key = token;
-        const savedbusinessEnquiry = await user.save();
-        logger.info(
-            `Application  Email sent to: ${savedbusinessEnquiry.email}`
-        );
+        const savedGetTouch = await user.save();
+        logger.info(`Application  Email sent to: ${savedGetTouch.email}`);
         return {
             success: true,
             message: 'Application  email send successfully.',

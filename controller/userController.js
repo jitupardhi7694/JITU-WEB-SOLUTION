@@ -2,17 +2,17 @@ const { validationResult } = require('express-validator');
 const passport = require('passport');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-const User = require('../models/userModel');
-const sendActivationLinkEmail = require('../helpers/sendActivationEmail');
-const sendResetLinkEmail = require('../helpers/sendResetPasswordEmail');
-const logger = require('../helpers/winston');
+const User = require('../models/registerModel');
+const sendActivationLinkEmail = require('../helpers/authentication/sendEmailActivation');
+const sendResetLinkEmail = require('../helpers/authentication/sendResetPasswordEmail');
+const logger = require('../helpers/authentication/winston');
 const UserRoles = require('../models/userRoleModel');
 
 const { JWT_ACTIVE_KEY } = process.env;
 const { JWT_RESET_KEY } = process.env;
 
 const getLogin = (req, res) => {
-    res.render('userDashboard/userLogin');
+    res.render('signIn');
 };
 
 const postLogin = (req, res, next) => {
@@ -22,17 +22,16 @@ const postLogin = (req, res, next) => {
 
     passport.authenticate('local', {
         successRedirect: '/dashboard',
-        failureRedirect: '/user/login',
+        failureRedirect: '/login',
         failureFlash: true,
     })(req, res, next);
 };
 
 const getRegister = async (req, res) => {
     const userRoles = await fetchUserRoles();
-    res.render('userDashboard/register', {
+    res.render('signUp', {
         userRoles,
         selectedRoleName: null,
-        isLogin: true,
     });
 };
 
@@ -44,7 +43,7 @@ const postRegister = async (req, res, next) => {
 
         if (errors.length > 0) {
             // Return to form with errors
-            return res.render('userDashboard/register', {
+            return res.render('signUp', {
                 errors,
                 name,
                 email,
@@ -60,7 +59,7 @@ const postRegister = async (req, res, next) => {
         if (user) {
             // User exists, return back to form
             errors.push({ msg: 'Email is already registered.. ' });
-            return res.render('userDashboard/register', {
+            return res.render('signUp', {
                 errors,
                 name,
                 email,
@@ -84,7 +83,7 @@ const postRegister = async (req, res, next) => {
             'success_msg',
             'Please check your email and activate the account.'
         );
-        return res.redirect('/user/login');
+        return res.redirect('/login');
     } catch (error) {
         logger.error(error);
         return next(error);
@@ -97,9 +96,9 @@ const getForgotPassword = async (req, res, next) => {
         const user = await User.findOne({ where: { reset_key: token } });
         if (!user) {
             req.flash('error_msg', 'Invalid token.');
-            return res.redirect('/user/sendResetLink');
+            return res.redirect('/sendResetLink');
         }
-        return res.render('userDashboard/forgotPassword', { isLogin: true });
+        return res.render('forgotPassword');
     } catch (error) {
         logger.error(error);
         return next(error);
@@ -114,7 +113,7 @@ const postForgotPassword = async (req, res, next) => {
         const errors = validationResult(req).array();
         if (errors.length > 0) {
             // return to form with errors
-            return res.render('userDashboard/forgotPassword', { errors });
+            return res.render('forgotPassword', { errors });
         }
 
         // const secretKey = process.env.JWT_RESET_KEY;
@@ -125,7 +124,7 @@ const postForgotPassword = async (req, res, next) => {
 
         if (!user) {
             req.flash('error_msg', 'Invalid User or expired link.');
-            return res.redirect('/user/sendResetLink');
+            return res.redirect('/sendResetLink');
         }
         // User found with id, email and token
         user.reset_key = ''; // so that same link cannot be used twice...
@@ -137,18 +136,18 @@ const postForgotPassword = async (req, res, next) => {
             'success_msg',
             `Password for <i>${decoded.email}</i> has been updated, you can login now.`
         );
-        return res.redirect('/user/login');
+        return res.redirect('/login');
     } catch (error) {
         // handle jwt errors
 
         if (error.name === 'TokenExpiredError') {
             req.flash('error_msg', 'Link is expired, please regenerate...');
-            return res.redirect('/user/sendResetLink');
+            return res.redirect('/sendResetLink');
         }
 
         if (error.name === 'JsonWebTokenError') {
             req.flash('error_msg', 'Link is invalid, please regenerate..');
-            return res.redirect('/user/sendResetLink');
+            return res.redirect('/sendResetLink');
         }
 
         logger.error(error);
@@ -156,8 +155,7 @@ const postForgotPassword = async (req, res, next) => {
     }
 }; // end of postForgotPassword function
 
-const getResetLink = (req, res) =>
-    res.render('userDashboard/resetPassword', { isLogin: true }); // end of getResetLink function
+const getResetLink = (req, res) => res.render('/resetPassword'); // end of getResetLink function
 
 const postResetLink = async (req, res, next) => {
     try {
@@ -168,7 +166,7 @@ const postResetLink = async (req, res, next) => {
                 'error_msg',
                 `<i>${email}</i> is not registered. Please try again or register first.`
             );
-            return res.redirect('/user/sendResetLink');
+            return res.redirect('/sendResetLink');
         }
         // User found with email send activation link email
         sendResetLinkEmail(req, res, next, user.email);
@@ -176,15 +174,14 @@ const postResetLink = async (req, res, next) => {
             'success_msg',
             `An email with link to reset password is sent on <i>${user.email}</i>. Please reset your password.`
         );
-        return res.redirect('/user/login');
+        return res.redirect('/login');
     } catch (error) {
         logger.error(error);
         return next(error);
     }
 }; // end of postResetLink function
 
-const getActivationLink = (req, res) =>
-    res.render('userDashboard/resendActivation', { isLogin: true });
+const getActivationLink = (req, res) => res.render('/emailVerification');
 
 const postActivationLink = async (req, res, next) => {
     try {
@@ -195,7 +192,7 @@ const postActivationLink = async (req, res, next) => {
                 'error_msg',
                 `<i>${email}</i> is not registered. Please try again or register first.`
             );
-            return res.redirect('/user/sendActivationLink');
+            return res.redirect('/sendActivationLink');
         }
         const result = await sendActivationLinkEmail(
             req,
@@ -207,7 +204,7 @@ const postActivationLink = async (req, res, next) => {
             'success_msg',
             `An email with an activation link has been sent to <i>${user.email}</i>. Please activate your account.`
         );
-        return res.redirect('/user/login');
+        return res.redirect('/login');
     } catch (error) {
         logger.error(error);
         return next(error);
@@ -229,7 +226,7 @@ const getActivateLinkHandler = async (req, res, next) => {
 
         if (!user) {
             req.flash('error_msg', 'Invalid user or link');
-            return res.redirect('/user/sendActivationLink');
+            return res.redirect('/sendActivationLink');
         }
 
         user.activation_key = '';
@@ -239,7 +236,7 @@ const getActivateLinkHandler = async (req, res, next) => {
             'success_msg',
             `${decoded.email} has been activated. You can now log in.`
         );
-        return res.redirect('/user/login');
+        return res.redirect('/login');
     } catch (error) {
         if (error.name === 'TokenExpiredError') {
             req.flash(
@@ -256,7 +253,7 @@ const getActivateLinkHandler = async (req, res, next) => {
             return next(error);
         }
 
-        return res.redirect('/user/sendActivationLink');
+        return res.redirect('/sendActivationLink');
     }
 };
 
@@ -264,7 +261,7 @@ const getLogout = (req, res) => {
     req.logout((err) => {
         if (err) return next(err);
         req.flash('success_msg', 'You are logged out');
-        res.redirect('/user/login');
+        res.redirect('/login');
         return req.session.destroy();
     });
 }; // end of getLogout function

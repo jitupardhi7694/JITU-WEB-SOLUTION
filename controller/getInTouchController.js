@@ -1,5 +1,5 @@
 const { validationResult } = require('express-validator');
-const logger = require('../helpers/winston');
+const logger = require('../helpers/authentication/winston');
 const getInTouchModel = require('../models/getInTouchModel');
 const sendActivationLinkEmail = require('../helpers/authentication/getInTouchMail');
 
@@ -25,7 +25,7 @@ const getInTouchRegister = async (req, res, next) => {
     }
 
     try {
-        const newProfile = new createProfile({
+        const newProfile = new getInTouchModel({
             name,
             email,
             number,
@@ -49,7 +49,7 @@ const getInTouchRegister = async (req, res, next) => {
         return res.redirect(`/`);
     } catch (error) {
         logger.error(error);
-        return next(error);
+        return error;
     }
 };
 

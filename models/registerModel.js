@@ -1,5 +1,5 @@
 const { DataTypes } = require('sequelize');
-const sqlize = require('../helpers/init-mysql');
+const sqlize = require('../helpers/authentication/init-mysql');
 
 const userRegister = sqlize.define(
     'register',

@@ -7,7 +7,10 @@ body {
     /* background: url(../img/background.jpg); */
     background-size: cover;
 }
-
+.form-select {
+    background: transparent !important;
+    color: aliceblue;
+}
 .get-h-style {
     color: aqua;
 }
@@ -21,7 +24,7 @@ body {
     display: none;
 }
 .video-register {
-    height: 80vh !important;
+    height: 85vh !important;
 }
 .video-login {
     height: 80vh !important;

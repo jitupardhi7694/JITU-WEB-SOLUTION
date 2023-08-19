@@ -1,8 +1,8 @@
 const jwt = require('jsonwebtoken');
 const sendEmails = require('./init-gmail');
-const User = require('../models/userModel');
+const User = require('../../models/userRoleModel');
 const logger = require('./winston');
-const host = require('../config/host-config');
+const host = require('../../config/host-config');
 
 async function sendResetPasswordLink(req, res, next, email) {
     try {
