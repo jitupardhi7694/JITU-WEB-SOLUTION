@@ -1761,3 +1761,7 @@ SyntaxError: Unexpected token 'const'
 [8/24/2023, 6:06:38 PM] info: Connection to DB established successfully.
 [8/24/2023, 6:06:56 PM] info: Connection to DB established successfully.
 [8/24/2023, 6:07:07 PM] info: Connection to DB established successfully.
+[8/24/2023, 6:07:23 PM] info: Connection to DB established successfully.
+[8/24/2023, 6:07:30 PM] info: Application  Email sent to: pardhijitu7694@gmail.com
+[8/24/2023, 6:07:36 PM] info: Message sent: %s
+[8/24/2023, 6:07:36 PM] info: Message sent: %s
