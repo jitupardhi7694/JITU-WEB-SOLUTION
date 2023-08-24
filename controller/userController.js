@@ -21,8 +21,8 @@ const postLogin = (req, res, next) => {
     // delete req.session.returnTo;
 
     passport.authenticate('local', {
-        successRedirect: '/dashboard',
-        failureRedirect: '/login',
+        successRedirect: '/user/dashboard',
+        failureRedirect: '/user/login',
         failureFlash: true,
     })(req, res, next);
 };
@@ -83,7 +83,7 @@ const postRegister = async (req, res, next) => {
             'success_msg',
             'Please check your email and activate the account.'
         );
-        return res.redirect('/login');
+        return res.redirect('/user/login');
     } catch (error) {
         logger.error(error);
         return next(error);
@@ -96,7 +96,7 @@ const getForgotPassword = async (req, res, next) => {
         const user = await User.findOne({ where: { reset_key: token } });
         if (!user) {
             req.flash('error_msg', 'Invalid token.');
-            return res.redirect('/sendResetLink');
+            return res.redirect('/user/sendResetLink');
         }
         return res.render('forgotPassword');
     } catch (error) {
@@ -124,7 +124,7 @@ const postForgotPassword = async (req, res, next) => {
 
         if (!user) {
             req.flash('error_msg', 'Invalid User or expired link.');
-            return res.redirect('/sendResetLink');
+            return res.redirect('/user/sendResetLink');
         }
         // User found with id, email and token
         user.reset_key = ''; // so that same link cannot be used twice...
@@ -136,18 +136,18 @@ const postForgotPassword = async (req, res, next) => {
             'success_msg',
             `Password for <i>${decoded.email}</i> has been updated, you can login now.`
         );
-        return res.redirect('/login');
+        return res.redirect('/user/login');
     } catch (error) {
         // handle jwt errors
 
         if (error.name === 'TokenExpiredError') {
             req.flash('error_msg', 'Link is expired, please regenerate...');
-            return res.redirect('/sendResetLink');
+            return res.redirect('/user/sendResetLink');
         }
 
         if (error.name === 'JsonWebTokenError') {
             req.flash('error_msg', 'Link is invalid, please regenerate..');
-            return res.redirect('/sendResetLink');
+            return res.redirect('/user/sendResetLink');
         }
 
         logger.error(error);
@@ -155,7 +155,7 @@ const postForgotPassword = async (req, res, next) => {
     }
 }; // end of postForgotPassword function
 
-const getResetLink = (req, res) => res.render('/resetPassword'); // end of getResetLink function
+const getResetLink = (req, res) => res.render('/user/resetPassword'); // end of getResetLink function
 
 const postResetLink = async (req, res, next) => {
     try {
@@ -166,7 +166,7 @@ const postResetLink = async (req, res, next) => {
                 'error_msg',
                 `<i>${email}</i> is not registered. Please try again or register first.`
             );
-            return res.redirect('/sendResetLink');
+            return res.redirect('/user/sendResetLink');
         }
         // User found with email send activation link email
         sendResetLinkEmail(req, res, next, user.email);
@@ -174,14 +174,14 @@ const postResetLink = async (req, res, next) => {
             'success_msg',
             `An email with link to reset password is sent on <i>${user.email}</i>. Please reset your password.`
         );
-        return res.redirect('/login');
+        return res.redirect('/user/login');
     } catch (error) {
         logger.error(error);
         return next(error);
     }
 }; // end of postResetLink function
 
-const getActivationLink = (req, res) => res.render('/emailVerification');
+const getActivationLink = (req, res) => res.render('emailVerification');
 
 const postActivationLink = async (req, res, next) => {
     try {
@@ -192,7 +192,7 @@ const postActivationLink = async (req, res, next) => {
                 'error_msg',
                 `<i>${email}</i> is not registered. Please try again or register first.`
             );
-            return res.redirect('/sendActivationLink');
+            return res.redirect('/user/sendActivationLink');
         }
         const result = await sendActivationLinkEmail(
             req,
@@ -204,7 +204,7 @@ const postActivationLink = async (req, res, next) => {
             'success_msg',
             `An email with an activation link has been sent to <i>${user.email}</i>. Please activate your account.`
         );
-        return res.redirect('/login');
+        return res.redirect('/user/login');
     } catch (error) {
         logger.error(error);
         return next(error);
@@ -226,7 +226,7 @@ const getActivateLinkHandler = async (req, res, next) => {
 
         if (!user) {
             req.flash('error_msg', 'Invalid user or link');
-            return res.redirect('/sendActivationLink');
+            return res.redirect('/user/sendActivationLink');
         }
 
         user.activation_key = '';
@@ -236,7 +236,7 @@ const getActivateLinkHandler = async (req, res, next) => {
             'success_msg',
             `${decoded.email} has been activated. You can now log in.`
         );
-        return res.redirect('/login');
+        return res.redirect('/user/login');
     } catch (error) {
         if (error.name === 'TokenExpiredError') {
             req.flash(
@@ -253,7 +253,7 @@ const getActivateLinkHandler = async (req, res, next) => {
             return next(error);
         }
 
-        return res.redirect('/sendActivationLink');
+        return res.redirect('/user/sendActivationLink');
     }
 };
 
@@ -261,7 +261,7 @@ const getLogout = (req, res) => {
     req.logout((err) => {
         if (err) return next(err);
         req.flash('success_msg', 'You are logged out');
-        res.redirect('/login');
+        res.redirect('/user/login');
         return req.session.destroy();
     });
 }; // end of getLogout function

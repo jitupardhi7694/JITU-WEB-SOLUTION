@@ -52,6 +52,7 @@ app.use((req, res, next) => {
 });
 
 app.use('/', require('./routes/indexRoute'));
+app.use('/user', ensureAuthenticated, require('./routes/userRoute'));
 
 app.listen(PORT, async (err) => {
     if (err) throw err;

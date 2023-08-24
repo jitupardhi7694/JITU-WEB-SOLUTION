@@ -18,7 +18,7 @@ const getIn_Touch = sqlize.define(
             type: DataTypes.STRING(75),
             allowNull: false,
         },
-        number: {
+        phone_number: {
             type: DataTypes.INTEGER(10),
             allowNull: false,
         },

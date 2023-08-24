@@ -7,7 +7,7 @@ function ensureAuthenticated(req, res, next) {
         return next();
     }
     req.flash('error_msg', 'Please log in to view this resource');
-    return res.redirect('/login');
+    return res.redirect('/user/login');
 }
 
 function ensureNotAuthenticated(req, res, next) {
@@ -16,7 +16,7 @@ function ensureNotAuthenticated(req, res, next) {
             'success_msg',
             'Already logged In, Please logout first to login again'
         );
-        return res.redirect('/dashboard');
+        return res.redirect('/user/dashboard');
     }
     return next();
 }
@@ -29,7 +29,7 @@ function ensureAdmin(req, res, next) {
         'error_msg',
         'Not Authorized!, You do not have the rights to access this resource.'
     );
-    return res.redirect('/dashboard');
+    return res.redirect('/user/dashboard');
 }
 
 function checkRoles(rolesArr) {
@@ -45,7 +45,7 @@ function checkRoles(rolesArr) {
             return res.redirect('back');
         }
         // If the user is not authenticated, redirect them to the login page
-        return res.redirect('/login');
+        return res.redirect('/user/login');
     };
 }
 
@@ -68,7 +68,7 @@ const preventMultipleLogins = (req, res, next) => {
                 req.logout(() => {
                     req.session.destroy(() => {
                         res.clearCookie('connect.sid');
-                        res.redirect('/login');
+                        res.redirect('/user/login');
                     });
                 });
                 return;

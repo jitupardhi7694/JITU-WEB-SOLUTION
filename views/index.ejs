@@ -1,7 +1,5 @@
 <%- include('./layout/partials/messages.ejs') %>
-
-
-    <div class="container">
+    <div class="container main-container">
         <div class="row    ">
 
             <video playsinline autoplay muted loop>
@@ -48,8 +46,7 @@
                 </div>
             </div>
         </div>
-        <!-- /videos/video (2160p).mp4 -->
-        <!-- ../public/videos/video (2160p) (1).mp4 -->
+
     </div>
 
     <div class="container mt-4">
@@ -66,8 +63,6 @@
             </h3>
         </div>
     </div>
-
-
 
     <div class="container mb-4 card-mt">
         <div class="col-md-12">
@@ -590,6 +585,7 @@
 
         </div>
     </div>
+
     <div class="container mb-4" id="get-in-touch">
         <div class="card">
             <h3 class="card-title mt-2 text-center mb-4"><strong><i class="fa-solid fa-file-lines"></i> Get In Touch <i
@@ -602,32 +598,34 @@
                                 <div class="mb-3">
                                     <input type="hidden" name="id">
                                     <input type="text" class="form-control  border rounded-pill" name="name"
-                                        placeholder="Full Name">
+                                        placeholder="Full Name" required>
                                 </div>
                                 <div class="mb-3">
 
                                     <input type="email" class="form-control  border rounded-pill" name="email"
-                                        placeholder="Email">
+                                        placeholder="Email" required>
                                 </div>
                                 <div class="mb-3">
 
-                                    <input type="number" class="form-control  border rounded-pill" name="number"
-                                        placeholder="+91 Phone Number">
+                                    <input type="number" class="form-control  border rounded-pill" name="phone_number"
+                                        placeholder="+91 Phone Number"
+                                        oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                                        maxLength="10" required>
                                 </div>
                                 <div class="mb-3">
 
                                     <input type="text" class="form-control  border rounded-pill" name="location"
-                                        placeholder="Location">
+                                        placeholder="Location" required>
                                 </div>
                                 <div class="mb-3">
 
                                     <textarea type="text" class="form-control  border rounded-pill" style="height:10vh;"
-                                        name="message" placeholder="Message"></textarea>
+                                        name="message" placeholder="Message" required></textarea>
                                 </div>
                                 <div class="text-center mt-4">
                                     <div class="flex ">
-                                        <button class="btn btn-outline-success text-white mr-4">Send Message <i
-                                                class="fa-regular fa-paper-plane"></i></button>
+                                        <button type="submit" class="btn btn-outline-success text-white mr-4">Send
+                                            Message <i class="fa-regular fa-paper-plane"></i></button>
                                     </div>
                                 </div>
                             </form>

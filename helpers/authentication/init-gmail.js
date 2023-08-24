@@ -9,7 +9,7 @@ const transporter = nodemailer.createTransport({
     secure: true, // true for 465, false for other ports
     auth: {
         user: 'jituwebsolution7709@gmail.com', // generated ethereal user
-        pass: 'Jitu@1234', // generated ethereal password
+        pass: 'fpvbgvymqcyxtdrk', // generated ethereal password
     },
 });
 
@@ -21,7 +21,7 @@ async function sendEmails(mailOptions) {
         to: 'jituwebsolution7709@gmail.com',
         cc: '',
         bcc: '',
-        subject: 'Email from Jitu Web Solution ',
+        subject: 'Email from Jitu Web Solution',
         text: 'Default text of email from Jitu Web Solution ',
     };
     const normalizedEmailOptions = { ...defaultOptions, ...mailOptions };

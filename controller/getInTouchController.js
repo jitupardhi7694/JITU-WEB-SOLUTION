@@ -4,12 +4,12 @@ const getInTouchModel = require('../models/getInTouchModel');
 const sendActivationLinkEmail = require('../helpers/authentication/getInTouchMail');
 
 const getInTouch = async (req, res) => {
-    res.render('index');
+    await res.render('index');
 };
 
 // save
 const getInTouchRegister = async (req, res, next) => {
-    const { name, email, number, location, message } = req.body;
+    const { name, email, phone_number, location, message } = req.body;
 
     const errors = validationResult(req).array(); // Retrieve validation errors
 
@@ -18,7 +18,7 @@ const getInTouchRegister = async (req, res, next) => {
             errors,
             name,
             email,
-            number,
+            phone_number,
             location,
             message,
         });
@@ -28,7 +28,7 @@ const getInTouchRegister = async (req, res, next) => {
         const newProfile = new getInTouchModel({
             name,
             email,
-            number,
+            phone_number,
             location,
             message,
         });
@@ -36,7 +36,7 @@ const getInTouchRegister = async (req, res, next) => {
         sendActivationLinkEmail(
             req,
             res,
-            next,
+
             savedCareerProfile.email,
             savedCareerProfile.id
         );
