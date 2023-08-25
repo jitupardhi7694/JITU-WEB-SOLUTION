@@ -1,6 +1,6 @@
 const { validationResult } = require('express-validator');
 const passport = require('passport');
-const bcrypt = require('bcryptjs');
+const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const User = require('../models/registerModel');
 const sendActivationLinkEmail = require('../helpers/authentication/sendEmailActivation');
@@ -21,7 +21,7 @@ const postLogin = (req, res, next) => {
     // delete req.session.returnTo;
 
     passport.authenticate('local', {
-        successRedirect: '/user/dashboard',
+        successRedirect: '/dashboard',
         failureRedirect: '/user/login',
         failureFlash: true,
     })(req, res, next);
@@ -38,17 +38,19 @@ const getRegister = async (req, res) => {
 const postRegister = async (req, res, next) => {
     try {
         const userRoles = await fetchUserRoles(); // Instantiate the UserRoles class
-        const { name, email, password, password2, role_id } = req.body;
+        const { id, name, email, password, confirmPassword, role_id } =
+            req.body;
         const errors = validationResult(req).array(); // Retrieve validation errors
 
         if (errors.length > 0) {
             // Return to form with errors
             return res.render('signUp', {
                 errors,
+                id,
                 name,
                 email,
                 password,
-                password2,
+                confirmPassword,
                 selectedRoleName: role_id,
                 userRoles,
             });
@@ -64,18 +66,24 @@ const postRegister = async (req, res, next) => {
                 name,
                 email,
                 password,
-                password2,
+                confirmPassword,
                 userRoles,
                 selectedRoleName: role_id,
             });
         }
 
         // Validations passed, create user and send activation email
-        const newUser = new User({ name, email, password, role_id }); // Assign role_id to newUser
+        // const newUser = new User({ name, email, password, role_id }); // Assign role_id to newUser
+        // const salt = await bcrypt.genSalt(10);
+        // const hash = await bcrypt.hash(newUser.password, salt);
+        // newUser.password = hash;
+
+        const newUser = new User({ name, email, role_id });
         const salt = await bcrypt.genSalt(10);
-        const hash = await bcrypt.hash(newUser.password, salt);
+        const hash = await bcrypt.hash(password, salt);
         newUser.password = hash;
         const savedUser = await newUser.save();
+
         sendActivationLinkEmail(req, res, next, savedUser.email);
 
         console.log('Activation link email saved =>', newUser);

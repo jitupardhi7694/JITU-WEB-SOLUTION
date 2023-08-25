@@ -1,49 +1,104 @@
 const express = require('express');
-const rateLimitter = require('../helpers/authentication/rate-limiter');
-
-const userController = require('../controller/userController');
 const router = express.Router();
+const userController = require('../controller/userController');
+const {
+    userValidationRules,
+    changePasswordRules,
 
-router.use(rateLimitter);
+    validate,
+} = require('../helpers/validator/userValidation');
+const {
+    ensureAuthenticated,
+    ensureNotAuthenticated,
+} = require('../helpers/authentication/auth-helper');
+const rateLimiter = require('../helpers/authentication/rate-limiter');
+router.use(rateLimiter);
 
-router.get('/login', async (req, res) => {
-    res.render('signIn');
+// Login Page
+router.get('/login', ensureNotAuthenticated, (req, res, next) => {
+    // Save the calling URL in the session
+    req.session.returnTo = req.headers.referer || req.originalUrl || req.url;
+    userController.getLogin(req, res, next);
 });
-router.get('/register', async (req, res) => {
-    res.render('signUp');
+
+// Login handle
+router.post('/login', ensureNotAuthenticated, (req, res, next) => {
+    userController.postLogin(req, res, next);
 });
-router.get('/dashboard', async (req, res) => {
-    res.render('dashboard');
+
+// Register Page
+router.get('/register', ensureNotAuthenticated, (req, res, next) => {
+    userController.getRegister(req, res, next);
 });
-router.get('/user_roles', async (req, res) => {
-    res.render('userRole');
-});
-router.get('/forget-password', async (req, res) => {
-    res.render('forgetPassword');
-});
-router.get('/sendActivationLink', async (req, res) => {
-    res.render('emailVerification');
-});
+
+// Register handle, uses validate middleware
+router.post(
+    '/register',
+    ensureNotAuthenticated,
+    userValidationRules(),
+    async (req, res, next) => {
+        userController.postRegister(req, res, next);
+    }
+);
 
 // reset password form and handler
-router.get('/forgotPassword/:token');
+router.get(
+    '/forgotPassword/:token',
+    ensureNotAuthenticated,
+    async (req, res, next) => {
+        console.log('GET:', req.params.token);
+        userController.getForgotPassword(req, res, next);
+    }
+);
 
-router.post('/forgotPassword/:token');
+router.post(
+    '/forgotPassword/:token',
+    changePasswordRules(),
+    ensureNotAuthenticated,
+    async (req, res, next) => {
+        console.log('POST:', req.params.token);
+        userController.postForgotPassword(req, res, next);
+    }
+);
 
-//reset password link email form and handler
-router.get('/sendResetLink');
+// reset password link email form and handler
+router.get('/sendResetLink', ensureNotAuthenticated, (req, res, next) => {
+    userController.getResetLink(req, res, next);
+});
 
-router.post('/sendResetLink');
+router.post(
+    '/sendResetLink',
+    ensureNotAuthenticated,
+    async (req, res, next) => {
+        userController.postResetLink(req, res, next);
+    }
+);
 
 // user activation resend form and handler
-router.get('/sendActivationLink');
+router.get('/sendActivationLink', ensureNotAuthenticated, (req, res, next) => {
+    userController.getActivationLink(req, res, next);
+});
 
-router.post('/sendActivationLink');
+router.post(
+    '/sendActivationLink',
+    ensureNotAuthenticated,
+    async (req, res, next) => {
+        userController.postActivationLink(req, res, next);
+    }
+);
 
 // activate user link handler
-router.get('/activate/:token');
+router.get(
+    '/activate/:token',
+    ensureNotAuthenticated,
+    async (req, res, next) => {
+        userController.getActivateLinkHandler(req, res, next);
+    }
+);
 
 // Logout handle
-router.get('/logout', (req, res, next) => {});
+router.get('/logout', ensureAuthenticated, (req, res, next) => {
+    userController.getLogout(req, res, next);
+});
 
 module.exports = router;

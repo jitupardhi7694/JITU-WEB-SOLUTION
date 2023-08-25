@@ -1,29 +1,31 @@
-<div class="container">
-    <div class="col-md-12">
-        <div class="row">
-            <video playsinline autoplay muted loop class="video-email">
-                <source src="/videos/pexels_videos_2611250 (2160p).mp4" type="video/webm">
+<%- include('./layout/partials/messages.ejs') %>
 
-            </video>
-            <div class="forget-body">
-                <div class="text-center mx-auto">
-                    <h4><i class="fa-sharp fa-solid fa-pen-to-square"></i> Resend Activate Email </h4>
-                </div>
+    <div class="container">
+        <div class="col-md-12">
+            <div class="row">
+                <video playsinline autoplay muted loop class="video-email">
+                    <source src="/videos/pexels_videos_2611250 (2160p).mp4" type="video/webm">
 
-                <div class="col-md-5 mx-auto mt-4 ">
-                    <form action="">
-                        <div class="mb-3">
-                            <input type="email" class="form-control  border rounded-pill" name="email"
-                                placeholder="Enter Email">
-                        </div>
-                        <div class="flex mt-4 text-center">
-                            <button class="btn btn-outline-success text-white mr-4">Activate</button>
-                            <a href="/user/login" class=" text-white">Login <i
-                                    class="fa-sharp fa-solid fa-arrow-right"></i></a>
-                        </div>
-                    </form>
+                </video>
+                <div class="forget-body">
+                    <div class="text-center mx-auto">
+                        <h4><i class="fa-sharp fa-solid fa-pen-to-square"></i> Resend Activate Email </h4>
+                    </div>
+
+                    <div class="col-md-5 mx-auto mt-4 ">
+                        <form action="" method="post">
+                            <div class="mb-3">
+                                <input type="email" class="form-control  border rounded-pill" name="email"
+                                    placeholder="Enter Email">
+                            </div>
+                            <div class="flex mt-4 text-center">
+                                <button class="btn btn-outline-success text-white mr-4">Activate</button>
+                                <a href="/user/login" class=" text-white">Login <i
+                                        class="fa-sharp fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>

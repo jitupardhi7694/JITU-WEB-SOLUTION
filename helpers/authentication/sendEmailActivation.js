@@ -2,6 +2,8 @@ const jwt = require('jsonwebtoken');
 const sendEmails = require('./init-gmail');
 const profileModel = require('../../models/registerModel');
 const logger = require('./winston');
+const host = require('../../config/host-config');
+
 const { JWT_ACTIVE_KEY } = process.env;
 
 const sendActivationLink = async (req, res, next, email) => {
@@ -26,7 +28,7 @@ const sendActivationLink = async (req, res, next, email) => {
         <p> Hello ${userName.name} </p>
         <p>You registered an account on Jitu Web Solution, before being able to use your account you need to verify that this is
             your email address by </p>
-        <p>clicking here: <a href="${host.PROTOCOL}://${host.HOST}:${host.PORT}/activate/${token} class="btn btn-outline-success">Activate Email</a> </p>
+        <p>clicking here: <a href="${host.PROTOCOL}://${host.HOST}:${host.PORT}/user/activate/${token} class="btn btn-outline-success">Activate Email</a> </p>
         <p>This link valid upto 2hr</p>
 
         <p>Kind Regards, Jitu Web Solution</p>

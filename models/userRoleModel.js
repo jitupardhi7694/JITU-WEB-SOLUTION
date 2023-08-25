@@ -24,8 +24,8 @@ const UserRoles = db.define(
     {
         tableName: 'user_roles',
         timestamps: true,
-        createdAt: 'createdAt',
-        updatedAt: 'updatedAt',
+        // createdAt: 'createdAt',
+        // updatedAt: 'updatedAt',
     }
 );
 

@@ -14,12 +14,16 @@ body {
 .main-container {
     margin-top: 52px !important;
 }
-
+.dashboard {
+    margin-top: 75px;
+}
 .alert-container {
     position: absolute !important;
     place-content: space-around !important;
     display: flex !important;
     width: max-content !important;
+    margin-top: 2px !important;
+    margin-left: 16px !important;
 }
 
 .image-logo {

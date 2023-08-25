@@ -52,7 +52,9 @@ app.use((req, res, next) => {
 });
 
 app.use('/', require('./routes/indexRoute'));
-app.use('/user', ensureAuthenticated, require('./routes/userRoute'));
+app.use('/dashboard', ensureAuthenticated, require('./routes/dashboardRoute'));
+app.use('/user', require('./routes/userRoute'));
+app.use('/user_roles', ensureAuthenticated, require('./routes/userRoleRoute'));
 
 app.listen(PORT, async (err) => {
     if (err) throw err;

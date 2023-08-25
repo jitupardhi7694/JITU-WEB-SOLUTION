@@ -1765,3 +1765,1604 @@ SyntaxError: Unexpected token 'const'
 [8/24/2023, 6:07:30 PM] info: Application  Email sent to: pardhijitu7694@gmail.com
 [8/24/2023, 6:07:36 PM] info: Message sent: %s
 [8/24/2023, 6:07:36 PM] info: Message sent: %s
+[8/24/2023, 6:11:39 PM] info: Connection to DB established successfully.
+[8/24/2023, 6:12:50 PM] error: uncaughtException: Unexpected token '}'
+D:\NodeJs-JitendraProject\routes\userRoute.js:11
+});
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:55:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/24/2023, 6:12:54 PM] error: uncaughtException: Unexpected token '}'
+D:\NodeJs-JitendraProject\routes\userRoute.js:11
+});
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:55:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/24/2023, 6:13:03 PM] info: Connection to DB established successfully.
+[8/24/2023, 6:13:08 PM] info: Connection to DB established successfully.
+[8/24/2023, 6:13:14 PM] error: uncaughtException: Unexpected token '}'
+D:\NodeJs-JitendraProject\routes\userRoute.js:14
+});
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:55:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/24/2023, 6:13:22 PM] info: Connection to DB established successfully.
+[8/24/2023, 6:13:26 PM] info: Connection to DB established successfully.
+[8/24/2023, 6:13:30 PM] info: Connection to DB established successfully.
+[8/24/2023, 6:13:36 PM] error: uncaughtException: Unexpected token '}'
+D:\NodeJs-JitendraProject\routes\userRoute.js:17
+});
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:55:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/24/2023, 6:13:39 PM] error: uncaughtException: Unexpected token '}'
+D:\NodeJs-JitendraProject\routes\userRoute.js:17
+});
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:55:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/24/2023, 6:14:45 PM] error: uncaughtException: Unexpected token '}'
+D:\NodeJs-JitendraProject\routes\userRoute.js:17
+});
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:55:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/24/2023, 6:14:50 PM] error: uncaughtException: Unexpected token '}'
+D:\NodeJs-JitendraProject\routes\userRoute.js:17
+});
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:55:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/24/2023, 6:14:57 PM] error: uncaughtException: Unexpected token '}'
+D:\NodeJs-JitendraProject\routes\userRoute.js:17
+});
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:55:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/24/2023, 6:15:01 PM] error: uncaughtException: Unexpected token '}'
+D:\NodeJs-JitendraProject\routes\userRoute.js:17
+});
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:55:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/24/2023, 6:15:03 PM] error: uncaughtException: Unexpected token '}'
+D:\NodeJs-JitendraProject\routes\userRoute.js:17
+});
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:55:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/24/2023, 6:15:09 PM] error: uncaughtException: Unexpected token '}'
+D:\NodeJs-JitendraProject\routes\userRoute.js:17
+});
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:55:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/24/2023, 6:15:22 PM] error: uncaughtException: Unexpected token '}'
+D:\NodeJs-JitendraProject\routes\userRoute.js:17
+});
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:55:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/24/2023, 6:15:26 PM] error: uncaughtException: Unexpected token '}'
+D:\NodeJs-JitendraProject\routes\userRoute.js:17
+});
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:55:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/24/2023, 6:15:31 PM] error: uncaughtException: Unexpected token '}'
+D:\NodeJs-JitendraProject\routes\userRoute.js:17
+});
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:55:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/24/2023, 6:16:03 PM] info: Connection to DB established successfully.
+[8/24/2023, 6:16:06 PM] info: Connection to DB established successfully.
+[8/24/2023, 6:16:09 PM] error: uncaughtException: Unexpected token '}'
+D:\NodeJs-JitendraProject\routes\userRoute.js:17
+});
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:55:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/24/2023, 6:16:12 PM] error: uncaughtException: Unexpected token '}'
+D:\NodeJs-JitendraProject\routes\userRoute.js:17
+});
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:55:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/24/2023, 6:16:17 PM] error: uncaughtException: Unexpected token '}'
+D:\NodeJs-JitendraProject\routes\userRoute.js:17
+});
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:55:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/24/2023, 6:16:22 PM] error: uncaughtException: Unexpected token '}'
+D:\NodeJs-JitendraProject\routes\userRoute.js:17
+});
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:55:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/24/2023, 6:16:38 PM] info: Connection to DB established successfully.
+[8/24/2023, 6:18:50 PM] error: uncaughtException: Unexpected token '}'
+D:\NodeJs-JitendraProject\routes\userRoute.js:20
+});
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:55:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/24/2023, 6:18:53 PM] error: uncaughtException: Unexpected token '}'
+D:\NodeJs-JitendraProject\routes\userRoute.js:20
+});
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:55:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/24/2023, 6:23:11 PM] info: Connection to DB established successfully.
+[8/24/2023, 6:23:31 PM] error: uncaughtException: Unexpected token '}'
+D:\NodeJs-JitendraProject\routes\userRoute.js:20
+});
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:55:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 10:50:55 AM] info: Connection to DB established successfully.
+[8/25/2023, 10:51:30 AM] info: Connection to DB established successfully.
+[8/25/2023, 10:53:05 AM] error: uncaughtException: Unexpected token 'const'
+D:\NodeJs-JitendraProject\routes\userRoute.js:4
+const userController = require('../controller/userController');
+^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 10:53:54 AM] error: uncaughtException: Missing initializer in destructuring declaration
+D:\NodeJs-JitendraProject\routes\userRoute.js:3
+const {loginValidation,
+
+SyntaxError: Missing initializer in destructuring declaration
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 10:54:00 AM] error: uncaughtException: Invalid or unexpected token
+D:\NodeJs-JitendraProject\routes\userRoute.js:6
+    validate,} = require('../helpers/
+                         ^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 10:54:08 AM] info: Connection to DB established successfully.
+[8/25/2023, 10:54:25 AM] info: Connection to DB established successfully.
+[8/25/2023, 10:55:10 AM] info: Connection to DB established successfully.
+[8/25/2023, 10:55:32 AM] error: uncaughtException: body(...).isPassword is not a function
+TypeError: body(...).isPassword is not a function
+    at loginValidation (D:\NodeJs-JitendraProject\helpers\validator\userValidation.js:5:22)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:14:22)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 10:55:37 AM] error: uncaughtException: missing ) after argument list
+D:\NodeJs-JitendraProject\routes\userRoute.js:17
+router.get('/register',re async (req, res) => {
+                       ^^
+
+SyntaxError: missing ) after argument list
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 10:55:39 AM] error: uncaughtException: missing ) after argument list
+D:\NodeJs-JitendraProject\routes\userRoute.js:17
+router.get('/register',registerValidation() async (req, res) => {
+                                          ^
+
+SyntaxError: missing ) after argument list
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 10:55:41 AM] error: uncaughtException: body(...).isPassword is not a function
+TypeError: body(...).isPassword is not a function
+    at loginValidation (D:\NodeJs-JitendraProject\helpers\validator\userValidation.js:5:22)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:14:22)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 10:55:48 AM] error: uncaughtException: Unexpected token 'for'
+D:\NodeJs-JitendraProject\routes\userRoute.js:21
+router.get('/forget-password',for async (req, res) => {
+                              ^^^
+
+SyntaxError: Unexpected token 'for'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 10:55:53 AM] error: uncaughtException: body(...).isPassword is not a function
+TypeError: body(...).isPassword is not a function
+    at loginValidation (D:\NodeJs-JitendraProject\helpers\validator\userValidation.js:5:22)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:14:22)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 10:56:20 AM] error: uncaughtException: body(...).isPassword is not a function
+TypeError: body(...).isPassword is not a function
+    at loginValidation (D:\NodeJs-JitendraProject\helpers\validator\userValidation.js:5:22)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:14:22)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 10:56:27 AM] error: uncaughtException: body(...).isPassword is not a function
+TypeError: body(...).isPassword is not a function
+    at loginValidation (D:\NodeJs-JitendraProject\helpers\validator\userValidation.js:5:22)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:14:22)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 10:56:31 AM] error: uncaughtException: body(...).isPassword is not a function
+TypeError: body(...).isPassword is not a function
+    at loginValidation (D:\NodeJs-JitendraProject\helpers\validator\userValidation.js:5:22)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:14:22)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 10:56:33 AM] error: uncaughtException: body(...).isPassword is not a function
+TypeError: body(...).isPassword is not a function
+    at loginValidation (D:\NodeJs-JitendraProject\helpers\validator\userValidation.js:5:22)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:14:22)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 10:57:00 AM] error: uncaughtException: Cannot set properties of undefined (setting 'message')
+TypeError: Cannot set properties of undefined (setting 'message')
+    at ValidatorsImpl.withMessage (D:\NodeJs-JitendraProject\node_modules\express-validator\src\chain\validators-impl.js:25:36)
+    at loginValidation (D:\NodeJs-JitendraProject\helpers\validator\userValidation.js:5:22)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:14:22)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+[8/25/2023, 10:57:15 AM] error: uncaughtException: body(...).isPassword is not a function
+TypeError: body(...).isPassword is not a function
+    at loginValidation (D:\NodeJs-JitendraProject\helpers\validator\userValidation.js:5:22)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:14:22)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 10:58:16 AM] error: uncaughtException: Cannot set properties of undefined (setting 'message')
+TypeError: Cannot set properties of undefined (setting 'message')
+    at ValidatorsImpl.withMessage (D:\NodeJs-JitendraProject\node_modules\express-validator\src\chain\validators-impl.js:25:36)
+    at registerValidation (D:\NodeJs-JitendraProject\helpers\validator\userValidation.js:9:10)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:17:25)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+[8/25/2023, 10:59:06 AM] error: uncaughtException: Unexpected identifier 'body'
+D:\NodeJs-JitendraProject\helpers\validator\userValidation.js:16
+    body('confirmPassword')
+    ^^^^
+
+SyntaxError: Unexpected identifier 'body'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:8:5)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 10:59:12 AM] error: uncaughtException: Unexpected identifier 'body'
+D:\NodeJs-JitendraProject\helpers\validator\userValidation.js:16
+    body('password')
+    ^^^^
+
+SyntaxError: Unexpected identifier 'body'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:8:5)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 10:59:19 AM] error: uncaughtException: Cannot set properties of undefined (setting 'message')
+TypeError: Cannot set properties of undefined (setting 'message')
+    at ValidatorsImpl.withMessage (D:\NodeJs-JitendraProject\node_modules\express-validator\src\chain\validators-impl.js:25:36)
+    at registerValidation (D:\NodeJs-JitendraProject\helpers\validator\userValidation.js:9:10)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:17:25)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+[8/25/2023, 10:59:27 AM] error: uncaughtException: Cannot set properties of undefined (setting 'message')
+TypeError: Cannot set properties of undefined (setting 'message')
+    at ValidatorsImpl.withMessage (D:\NodeJs-JitendraProject\node_modules\express-validator\src\chain\validators-impl.js:25:36)
+    at registerValidation (D:\NodeJs-JitendraProject\helpers\validator\userValidation.js:9:10)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:17:25)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+[8/25/2023, 10:59:44 AM] error: uncaughtException: Cannot set properties of undefined (setting 'message')
+TypeError: Cannot set properties of undefined (setting 'message')
+    at ValidatorsImpl.withMessage (D:\NodeJs-JitendraProject\node_modules\express-validator\src\chain\validators-impl.js:25:36)
+    at registerValidation (D:\NodeJs-JitendraProject\helpers\validator\userValidation.js:9:10)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:17:25)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+[8/25/2023, 11:00:08 AM] error: uncaughtException: Cannot set properties of undefined (setting 'message')
+TypeError: Cannot set properties of undefined (setting 'message')
+    at ValidatorsImpl.withMessage (D:\NodeJs-JitendraProject\node_modules\express-validator\src\chain\validators-impl.js:25:36)
+    at registerValidation (D:\NodeJs-JitendraProject\helpers\validator\userValidation.js:9:10)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:17:25)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+[8/25/2023, 11:00:15 AM] error: uncaughtException: Cannot set properties of undefined (setting 'message')
+TypeError: Cannot set properties of undefined (setting 'message')
+    at ValidatorsImpl.withMessage (D:\NodeJs-JitendraProject\node_modules\express-validator\src\chain\validators-impl.js:25:36)
+    at registerValidation (D:\NodeJs-JitendraProject\helpers\validator\userValidation.js:9:10)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:17:25)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+[8/25/2023, 11:03:27 AM] error: uncaughtException: loginValidation is not a function
+TypeError: loginValidation is not a function
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:14:22)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[8/25/2023, 11:03:50 AM] error: uncaughtException: loginValidation is not a function
+TypeError: loginValidation is not a function
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:14:22)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[8/25/2023, 11:04:12 AM] error: uncaughtException: registerValidation is not a function
+TypeError: registerValidation is not a function
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:17:25)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[8/25/2023, 11:04:18 AM] error: uncaughtException: forgetPassValidation is not a function
+TypeError: forgetPassValidation is not a function
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:23:5)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[8/25/2023, 11:04:22 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:05:21 AM] error: uncaughtException: Unexpected token '}'
+D:\NodeJs-JitendraProject\routes\userRoute.js:27
+    }
+    ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 11:05:28 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:05:34 AM] error: uncaughtException: Unexpected token '}'
+D:\NodeJs-JitendraProject\routes\userRoute.js:31
+});
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 11:05:37 AM] error: uncaughtException: Unexpected token '}'
+D:\NodeJs-JitendraProject\routes\userRoute.js:31
+});
+^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 11:06:06 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:06:32 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:06:35 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:06:42 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:06:44 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:06:50 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:06:55 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:07:00 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:07:18 AM] error: uncaughtException: Unexpected token '('
+D:\NodeJs-JitendraProject\routes\userRoute.js:35
+    await userController.(req, res);
+                         ^
+
+SyntaxError: Unexpected token '('
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 11:07:39 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:07:43 AM] error: uncaughtException: Unexpected token '('
+D:\NodeJs-JitendraProject\routes\userRoute.js:35
+    await userController.(req, res);
+                         ^
+
+SyntaxError: Unexpected token '('
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 11:07:45 AM] error: uncaughtException: Unexpected token '('
+D:\NodeJs-JitendraProject\routes\userRoute.js:35
+    await userController.(req, res);
+                         ^
+
+SyntaxError: Unexpected token '('
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 11:08:34 AM] error: uncaughtException: ensureNotAuthenticated is not defined
+ReferenceError: ensureNotAuthenticated is not defined
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:24:5)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[8/25/2023, 11:09:02 AM] error: uncaughtException: Cannot find module '../helpers/auth-helper'
+Require stack:
+- D:\NodeJs-JitendraProject\routes\userRoute.js
+- D:\NodeJs-JitendraProject\app.js
+Error: Cannot find module '../helpers/auth-helper'
+Require stack:
+- D:\NodeJs-JitendraProject\routes\userRoute.js
+- D:\NodeJs-JitendraProject\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:14:5)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[8/25/2023, 11:09:12 AM] error: uncaughtException: Cannot find module '../helpers/validator/'
+Require stack:
+- D:\NodeJs-JitendraProject\routes\userRoute.js
+- D:\NodeJs-JitendraProject\app.js
+Error: Cannot find module '../helpers/validator/'
+Require stack:
+- D:\NodeJs-JitendraProject\routes\userRoute.js
+- D:\NodeJs-JitendraProject\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:14:5)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[8/25/2023, 11:09:21 AM] error: uncaughtException: Cannot find module '../helpers/'
+Require stack:
+- D:\NodeJs-JitendraProject\routes\userRoute.js
+- D:\NodeJs-JitendraProject\app.js
+Error: Cannot find module '../helpers/'
+Require stack:
+- D:\NodeJs-JitendraProject\routes\userRoute.js
+- D:\NodeJs-JitendraProject\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:14:5)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[8/25/2023, 11:09:26 AM] error: uncaughtException: Cannot find module '../helpers/authentication/'
+Require stack:
+- D:\NodeJs-JitendraProject\routes\userRoute.js
+- D:\NodeJs-JitendraProject\app.js
+Error: Cannot find module '../helpers/authentication/'
+Require stack:
+- D:\NodeJs-JitendraProject\routes\userRoute.js
+- D:\NodeJs-JitendraProject\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:14:5)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[8/25/2023, 11:09:36 AM] error: uncaughtException: changePasswordRules is not defined
+ReferenceError: changePasswordRules is not defined
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:35:8)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[8/25/2023, 11:10:38 AM] error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (D:\NodeJs-JitendraProject\node_modules\express\lib\router\route.js:211:15)
+    at proto.<computed> [as get] (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:18:8)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+[8/25/2023, 11:11:39 AM] error: uncaughtException: Identifier 'validate' has already been declared
+D:\NodeJs-JitendraProject\routes\userRoute.js:13
+    validate,
+    ^
+
+SyntaxError: Identifier 'validate' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 11:11:53 AM] error: uncaughtException: Identifier 'validate' has already been declared
+D:\NodeJs-JitendraProject\routes\userRoute.js:13
+    validate,
+    ^
+
+SyntaxError: Identifier 'validate' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 11:11:58 AM] error: uncaughtException: loginValidation is not defined
+ReferenceError: loginValidation is not defined
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:19:22)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[8/25/2023, 11:12:35 AM] error: uncaughtException: loginValidation is not defined
+ReferenceError: loginValidation is not defined
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:19:22)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[8/25/2023, 11:12:41 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:13:22 AM] error: uncaughtException: Cannot find module '../helpers/validators/userValidator'
+Require stack:
+- D:\NodeJs-JitendraProject\routes\userRoute.js
+- D:\NodeJs-JitendraProject\app.js
+Error: Cannot find module '../helpers/validators/userValidator'
+Require stack:
+- D:\NodeJs-JitendraProject\routes\userRoute.js
+- D:\NodeJs-JitendraProject\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:9:5)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[8/25/2023, 11:13:35 AM] error: uncaughtException: Cannot find module '../controller/'
+Require stack:
+- D:\NodeJs-JitendraProject\routes\userRoute.js
+- D:\NodeJs-JitendraProject\app.js
+Error: Cannot find module '../controller/'
+Require stack:
+- D:\NodeJs-JitendraProject\routes\userRoute.js
+- D:\NodeJs-JitendraProject\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:3:24)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[8/25/2023, 11:13:37 AM] error: uncaughtException: Cannot find module '../helpers/validators/userValidator'
+Require stack:
+- D:\NodeJs-JitendraProject\routes\userRoute.js
+- D:\NodeJs-JitendraProject\app.js
+Error: Cannot find module '../helpers/validators/userValidator'
+Require stack:
+- D:\NodeJs-JitendraProject\routes\userRoute.js
+- D:\NodeJs-JitendraProject\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:9:5)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[8/25/2023, 11:13:47 AM] error: uncaughtException: Cannot find module '../helpers/validator/'
+Require stack:
+- D:\NodeJs-JitendraProject\routes\userRoute.js
+- D:\NodeJs-JitendraProject\app.js
+Error: Cannot find module '../helpers/validator/'
+Require stack:
+- D:\NodeJs-JitendraProject\routes\userRoute.js
+- D:\NodeJs-JitendraProject\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:9:5)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[8/25/2023, 11:13:51 AM] error: uncaughtException: Cannot find module '../helpers/auth-helper'
+Require stack:
+- D:\NodeJs-JitendraProject\routes\userRoute.js
+- D:\NodeJs-JitendraProject\app.js
+Error: Cannot find module '../helpers/auth-helper'
+Require stack:
+- D:\NodeJs-JitendraProject\routes\userRoute.js
+- D:\NodeJs-JitendraProject\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:13:5)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[8/25/2023, 11:14:01 AM] error: uncaughtException: Cannot find module '../helpers/rate-limiter'
+Require stack:
+- D:\NodeJs-JitendraProject\routes\userRoute.js
+- D:\NodeJs-JitendraProject\app.js
+Error: Cannot find module '../helpers/rate-limiter'
+Require stack:
+- D:\NodeJs-JitendraProject\routes\userRoute.js
+- D:\NodeJs-JitendraProject\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:14:21)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[8/25/2023, 11:14:10 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:14:21 AM] error: uncaughtException: Unexpected token ')'
+D:\NodeJs-JitendraProject\routes\userRoute.js:22
+});
+ ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 11:14:25 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:14:35 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:14:37 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:14:40 AM] error: uncaughtException: Unexpected token '('
+D:\NodeJs-JitendraProject\routes\userRoute.js:26
+    userController.(req, res, next);
+                   ^
+
+SyntaxError: Unexpected token '('
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:56:39)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 11:14:43 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:14:46 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:14:52 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:14:54 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:15:09 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:15:12 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:15:17 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:15:20 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:15:25 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:15:28 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:15:37 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:15:41 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:15:44 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:15:46 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:15:55 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:15:58 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:16:03 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:16:09 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:18:15 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:18:46 AM] error: uncaughtException: Table 'Jitendra_Database.registers' doesn't exist
+Error
+    at Query.run (D:\NodeJs-JitendraProject\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\NodeJs-JitendraProject\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (D:\NodeJs-JitendraProject\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async register.findAll (D:\NodeJs-JitendraProject\node_modules\sequelize\lib\model.js:1140:21)
+    at async register.findOne (D:\NodeJs-JitendraProject\node_modules\sequelize\lib\model.js:1240:12)
+    at async Strategy._verify (D:\NodeJs-JitendraProject\helpers\authentication\init-passport.js:13:34)
+[8/25/2023, 11:19:23 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:20:22 AM] error: uncaughtException: Unknown column 'active' in 'field list'
+Error
+    at Query.run (D:\NodeJs-JitendraProject\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\NodeJs-JitendraProject\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.select (D:\NodeJs-JitendraProject\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async registers.findAll (D:\NodeJs-JitendraProject\node_modules\sequelize\lib\model.js:1140:21)
+    at async registers.findOne (D:\NodeJs-JitendraProject\node_modules\sequelize\lib\model.js:1240:12)
+    at async Strategy._verify (D:\NodeJs-JitendraProject\helpers\authentication\init-passport.js:13:34)
+[8/25/2023, 11:22:24 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:22:42 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:23:10 AM] error: uncaughtException: Cannot find module '../controller/'
+Require stack:
+- D:\NodeJs-JitendraProject\routes\userRoleRoute.js
+- D:\NodeJs-JitendraProject\app.js
+Error: Cannot find module '../controller/'
+Require stack:
+- D:\NodeJs-JitendraProject\routes\userRoleRoute.js
+- D:\NodeJs-JitendraProject\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoleRoute.js:3:27)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[8/25/2023, 11:23:12 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:28:46 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:30:25 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:40:04 AM] info: Application  Email sent to: jituwebsolution7709@gmail.com
+[8/25/2023, 11:40:13 AM] info: Message sent: %s
+[8/25/2023, 11:40:15 AM] info: Message sent: %s
+[8/25/2023, 11:43:52 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:45:09 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:45:27 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:46:05 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:46:16 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:46:21 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:46:26 AM] error: Field 'id' doesn't have a default value
+[8/25/2023, 11:46:31 AM] error: Field 'id' doesn't have a default value
+[8/25/2023, 11:50:26 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:50:50 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:52:31 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:52:49 AM] error: Field 'id' doesn't have a default value
+[8/25/2023, 11:53:16 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:54:26 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:54:34 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:54:39 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:54:59 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:55:02 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:55:31 AM] error: Field 'id' doesn't have a default value
+[8/25/2023, 11:58:04 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:58:08 AM] error: Data truncated for column 'id' at row 1
+[8/25/2023, 11:58:41 AM] error: Incorrect integer value: '' for column 'id' at row 1
+[8/25/2023, 11:59:24 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:59:49 AM] info: Connection to DB established successfully.
+[8/25/2023, 11:59:57 AM] error: Field 'id' doesn't have a default value
+[8/25/2023, 12:00:36 PM] error: Field 'id' doesn't have a default value
+[8/25/2023, 12:05:10 PM] info: Connection to DB established successfully.
+[8/25/2023, 12:05:14 PM] error: Data too long for column 'password' at row 1
+[8/25/2023, 12:05:44 PM] error: Data too long for column 'password' at row 1
+[8/25/2023, 12:07:56 PM] info: Connection to DB established successfully.
+[8/25/2023, 12:07:58 PM] error: uncaughtException: Identifier 'newUser' has already been declared
+D:\NodeJs-JitendraProject\controller\userController.js:81
+        const newUser = new User({ name, email, role_id }); // Don't include the password yet
+              ^
+
+SyntaxError: Identifier 'newUser' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:3:24)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 12:08:28 PM] info: Connection to DB established successfully.
+[8/25/2023, 12:08:32 PM] error: Data too long for column 'password' at row 1
+[8/25/2023, 12:08:56 PM] error: Data too long for column 'password' at row 1
+[8/25/2023, 12:09:35 PM] info: Connection to DB established successfully.
+[8/25/2023, 12:09:39 PM] info: Connection to DB established successfully.
+[8/25/2023, 12:09:50 PM] error: Data too long for column 'password' at row 1
+[8/25/2023, 12:10:14 PM] error: Data too long for column 'password' at row 1
+[8/25/2023, 12:12:52 PM] info: Connection to DB established successfully.
+[8/25/2023, 12:12:59 PM] error: Data too long for column 'password' at row 1
+[8/25/2023, 12:13:17 PM] error: Data too long for column 'password' at row 1
+[8/25/2023, 12:14:04 PM] error: uncaughtException: Identifier 'salt' has already been declared
+D:\NodeJs-JitendraProject\controller\userController.js:88
+        const salt = await bcrypt.genSalt(10);
+              ^
+
+SyntaxError: Identifier 'salt' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:3:24)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 12:15:03 PM] info: Connection to DB established successfully.
+[8/25/2023, 12:15:10 PM] info: Connection to DB established successfully.
+[8/25/2023, 12:15:14 PM] error: Cannot access 'newUser' before initialization
+[8/25/2023, 12:15:28 PM] info: Connection to DB established successfully.
+[8/25/2023, 12:15:31 PM] info: Connection to DB established successfully.
+[8/25/2023, 12:15:34 PM] info: Connection to DB established successfully.
+[8/25/2023, 12:15:44 PM] info: Connection to DB established successfully.
+[8/25/2023, 12:15:49 PM] error: userRegister is not defined
+[8/25/2023, 12:16:09 PM] info: Connection to DB established successfully.
+[8/25/2023, 12:16:12 PM] info: Connection to DB established successfully.
+[8/25/2023, 12:16:13 PM] error: Data too long for column 'password' at row 1
+[8/25/2023, 12:16:25 PM] info: Connection to DB established successfully.
+[8/25/2023, 12:16:26 PM] error: Class constructor model cannot be invoked without 'new'
+[8/25/2023, 12:16:38 PM] info: Connection to DB established successfully.
+[8/25/2023, 12:16:38 PM] error: Data too long for column 'password' at row 1
+[8/25/2023, 12:16:52 PM] info: Connection to DB established successfully.
+[8/25/2023, 12:16:57 PM] info: Connection to DB established successfully.
+[8/25/2023, 12:17:03 PM] info: Connection to DB established successfully.
+[8/25/2023, 12:17:04 PM] error: Data too long for column 'password' at row 1
+[8/25/2023, 12:18:39 PM] error: uncaughtException: Cannot find module 'bcrypt'
+Require stack:
+- D:\NodeJs-JitendraProject\controller\userController.js
+- D:\NodeJs-JitendraProject\routes\userRoute.js
+- D:\NodeJs-JitendraProject\app.js
+Error: Cannot find module 'bcrypt'
+Require stack:
+- D:\NodeJs-JitendraProject\controller\userController.js
+- D:\NodeJs-JitendraProject\routes\userRoute.js
+- D:\NodeJs-JitendraProject\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\controller\userController.js:3:16)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[8/25/2023, 12:19:54 PM] info: Connection to DB established successfully.
+[8/25/2023, 12:20:00 PM] error: uncaughtException: Identifier 'newUser' has already been declared
+D:\NodeJs-JitendraProject\controller\userController.js:82
+        const newUser = new User({ name, email, role_id });
+              ^
+
+SyntaxError: Identifier 'newUser' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:3:24)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 12:20:13 PM] error: uncaughtException: Identifier 'newUser' has already been declared
+D:\NodeJs-JitendraProject\controller\userController.js:81
+        const newUser = new User({ name, email, role_id });
+              ^
+
+SyntaxError: Identifier 'newUser' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:3:24)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 12:20:25 PM] info: Connection to DB established successfully.
+[8/25/2023, 12:20:55 PM] error: Data too long for column 'password' at row 1
+[8/25/2023, 12:23:01 PM] error: Cannot add or update a child row: a foreign key constraint fails (`Jitendra_Database`.`registers`, CONSTRAINT `idfkrole` FOREIGN KEY (`role_id`) REFERENCES `user_roles` (`id`))
+[8/25/2023, 12:23:21 PM] error: Cannot add or update a child row: a foreign key constraint fails (`Jitendra_Database`.`registers`, CONSTRAINT `idfkrole` FOREIGN KEY (`role_id`) REFERENCES `user_roles` (`id`))
+[8/25/2023, 12:23:49 PM] info: Connection to DB established successfully.
+[8/25/2023, 12:23:53 PM] info: Connection to DB established successfully.
+[8/25/2023, 12:24:08 PM] info: Connection to DB established successfully.
+[8/25/2023, 12:24:09 PM] error: Cannot add or update a child row: a foreign key constraint fails (`Jitendra_Database`.`registers`, CONSTRAINT `idfkrole` FOREIGN KEY (`role_id`) REFERENCES `user_roles` (`id`))
+[8/25/2023, 12:25:31 PM] info: Connection to DB established successfully.
+[8/25/2023, 12:25:43 PM] info: Connection to DB established successfully.
+[8/25/2023, 12:26:27 PM] info: Connection to DB established successfully.
+[8/25/2023, 12:27:09 PM] error: Cannot add or update a child row: a foreign key constraint fails (`Jitendra_Database`.`registers`, CONSTRAINT `idfkrole` FOREIGN KEY (`role_id`) REFERENCES `user_roles` (`id`))
+[8/25/2023, 12:33:37 PM] error: Cannot add or update a child row: a foreign key constraint fails (`Jitendra_Database`.`registers`, CONSTRAINT `idfk_role` FOREIGN KEY (`role_id`) REFERENCES `user_roles` (`id`))
+[8/25/2023, 12:34:34 PM] info: Connection to DB established successfully.
+[8/25/2023, 12:35:30 PM] error: Cannot add or update a child row: a foreign key constraint fails (`Jitendra_Database`.`registers`, CONSTRAINT `idfk_role` FOREIGN KEY (`role_id`) REFERENCES `user_roles` (`id`))
+[8/25/2023, 12:40:29 PM] info: Connection to DB established successfully.
+[8/25/2023, 12:41:07 PM] error: Cannot add or update a child row: a foreign key constraint fails (`Jitendra_Database`.`registers`, CONSTRAINT `idfk_role` FOREIGN KEY (`role_id`) REFERENCES `user_roles` (`id`))
+[8/25/2023, 12:41:48 PM] info: Connection to DB established successfully.
+[8/25/2023, 12:41:52 PM] info: Connection to DB established successfully.
+[8/25/2023, 12:50:30 PM] info: Connection to DB established successfully.
+[8/25/2023, 12:51:16 PM] error: Cannot add or update a child row: a foreign key constraint fails (`Jitendra_Database`.`registers`, CONSTRAINT `idfk_role` FOREIGN KEY (`role_id`) REFERENCES `user_roles` (`id`))
+[8/25/2023, 12:51:49 PM] info: Connection to DB established successfully.
+[8/25/2023, 12:53:04 PM] error: uncaughtException: Unexpected token '.'
+D:\NodeJs-JitendraProject\controller\userController.js:33
+        userRoles.role,
+                 ^
+
+SyntaxError: Unexpected token '.'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:3:24)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 12:53:09 PM] error: uncaughtException: Unexpected token '.'
+D:\NodeJs-JitendraProject\controller\userController.js:33
+        userRoles.role_ne,
+                 ^
+
+SyntaxError: Unexpected token '.'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\userRoute.js:3:24)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 12:53:15 PM] info: Connection to DB established successfully.
+[8/25/2023, 12:57:44 PM] error: host is not defined
+[8/25/2023, 12:57:44 PM] error: uncaughtException: host is not defined
+ReferenceError: host is not defined
+    at sendActivationLink (D:\NodeJs-JitendraProject\helpers\authentication\sendEmailActivation.js:29:38)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[8/25/2023, 1:02:41 PM] error: uncaughtException: Cannot find module '../config/host-config'
+Require stack:
+- D:\NodeJs-JitendraProject\helpers\authentication\sendEmailActivation.js
+- D:\NodeJs-JitendraProject\controller\userController.js
+- D:\NodeJs-JitendraProject\routes\userRoute.js
+- D:\NodeJs-JitendraProject\app.js
+Error: Cannot find module '../config/host-config'
+Require stack:
+- D:\NodeJs-JitendraProject\helpers\authentication\sendEmailActivation.js
+- D:\NodeJs-JitendraProject\controller\userController.js
+- D:\NodeJs-JitendraProject\routes\userRoute.js
+- D:\NodeJs-JitendraProject\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\helpers\authentication\sendEmailActivation.js:5:14)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[8/25/2023, 1:02:51 PM] info: Connection to DB established successfully.
+[8/25/2023, 1:02:56 PM] info: Connection to DB established successfully.
+[8/25/2023, 1:05:37 PM] error: Data too long for column 'activation_key' at row 1
+[8/25/2023, 1:05:37 PM] error: uncaughtException: Data too long for column 'activation_key' at row 1
+Error
+    at Query.run (D:\NodeJs-JitendraProject\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at D:\NodeJs-JitendraProject\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.update (D:\NodeJs-JitendraProject\node_modules\sequelize\lib\dialects\abstract\query-interface.js:355:12)
+    at async model.save (D:\NodeJs-JitendraProject\node_modules\sequelize\lib\model.js:2490:35)
+    at async sendActivationLink (D:\NodeJs-JitendraProject\helpers\authentication\sendEmailActivation.js:57:35)
+[8/25/2023, 1:07:05 PM] info: Connection to DB established successfully.
+[8/25/2023, 1:07:39 PM] info: Connection to DB established successfully.
+[8/25/2023, 1:08:01 PM] info: Connection to DB established successfully.
+[8/25/2023, 1:08:59 PM] error: Data too long for column 'activation_key' at row 1
+[8/25/2023, 1:08:59 PM] error: Data too long for column 'activation_key' at row 1
+[8/25/2023, 1:09:07 PM] info: Message sent: %s
+[8/25/2023, 1:10:13 PM] error: Data too long for column 'activation_key' at row 1
+[8/25/2023, 1:10:13 PM] error: Data too long for column 'activation_key' at row 1
+[8/25/2023, 1:10:15 PM] info: Message sent: %s
+[8/25/2023, 1:10:16 PM] error: Data too long for column 'activation_key' at row 1
+[8/25/2023, 1:10:16 PM] error: Data too long for column 'activation_key' at row 1
+[8/25/2023, 1:10:18 PM] info: Message sent: %s
+[8/25/2023, 1:10:34 PM] info: Connection to DB established successfully.
+[8/25/2023, 1:10:40 PM] info: Connection to DB established successfully.
+[8/25/2023, 1:10:41 PM] error: Data too long for column 'activation_key' at row 1
+[8/25/2023, 1:10:41 PM] error: Data too long for column 'activation_key' at row 1
+[8/25/2023, 1:10:44 PM] info: Message sent: %s
+[8/25/2023, 1:11:01 PM] error: Data too long for column 'activation_key' at row 1
+[8/25/2023, 1:11:01 PM] error: Data too long for column 'activation_key' at row 1
+[8/25/2023, 1:11:04 PM] info: Message sent: %s
+[8/25/2023, 1:12:58 PM] info: Connection to DB established successfully.
+[8/25/2023, 1:13:03 PM] info: Connection to DB established successfully.
+[8/25/2023, 1:13:07 PM] info: Connection to DB established successfully.
+[8/25/2023, 1:13:15 PM] info: Application  Email sent to: pardhijitu7694@gmail.com
+[8/25/2023, 1:13:20 PM] info: Message sent: %s
+[8/25/2023, 1:13:39 PM] error: uncaughtException: userController is not defined
+ReferenceError: userController is not defined
+    at D:\NodeJs-JitendraProject\routes\dashboardRoute.js:5:5
+    at Layer.handle [as handle_request] (D:\NodeJs-JitendraProject\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\NodeJs-JitendraProject\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\NodeJs-JitendraProject\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\NodeJs-JitendraProject\node_modules\express\lib\router\layer.js:95:5)
+    at D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:47:12)
+[8/25/2023, 1:14:09 PM] error: uncaughtException: Missing initializer in const declaration
+D:\NodeJs-JitendraProject\routes\dashboardRoute.js:3
+const das
+      ^^^
+
+SyntaxError: Missing initializer in const declaration
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:55:44)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 1:14:13 PM] error: uncaughtException: Missing initializer in const declaration
+D:\NodeJs-JitendraProject\routes\dashboardRoute.js:3
+const dashboardControll
+      ^^^^^^^^^^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:55:44)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 1:14:20 PM] error: uncaughtException: req is not defined
+ReferenceError: req is not defined
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\dashboardRoute.js:3:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:55:44)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+[8/25/2023, 1:14:27 PM] error: uncaughtException: Cannot find module '../c'
+Require stack:
+- D:\NodeJs-JitendraProject\routes\dashboardRoute.js
+- D:\NodeJs-JitendraProject\app.js
+Error: Cannot find module '../c'
+Require stack:
+- D:\NodeJs-JitendraProject\routes\dashboardRoute.js
+- D:\NodeJs-JitendraProject\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1090:15)
+    at Module._load (node:internal/modules/cjs/loader:934:27)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\routes\dashboardRoute.js:3:29)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+[8/25/2023, 1:14:30 PM] info: Connection to DB established successfully.
+[8/25/2023, 1:14:35 PM] info: Connection to DB established successfully.
+[8/25/2023, 1:14:37 PM] error: uncaughtException: Unexpected token '('
+D:\NodeJs-JitendraProject\routes\dashboardRoute.js:5
+    await dashboardController.(req, res);
+                              ^
+
+SyntaxError: Unexpected token '('
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:55:44)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 1:14:49 PM] error: uncaughtException: Unexpected token '('
+D:\NodeJs-JitendraProject\routes\dashboardRoute.js:5
+    await dashboardController.(req, res);
+                              ^
+
+SyntaxError: Unexpected token '('
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (D:\NodeJs-JitendraProject\app.js:55:44)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+[8/25/2023, 1:14:55 PM] info: Connection to DB established successfully.
+[8/25/2023, 1:14:55 PM] error: uncaughtException: dashboardController.getDashboard is not a function
+TypeError: dashboardController.getDashboard is not a function
+    at D:\NodeJs-JitendraProject\routes\dashboardRoute.js:5:31
+    at Layer.handle [as handle_request] (D:\NodeJs-JitendraProject\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\NodeJs-JitendraProject\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\NodeJs-JitendraProject\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\NodeJs-JitendraProject\node_modules\express\lib\router\layer.js:95:5)
+    at D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:47:12)
+[8/25/2023, 1:15:16 PM] info: Connection to DB established successfully.
+[8/25/2023, 1:15:17 PM] error: uncaughtException: dashboardController.getDashboard is not a function
+TypeError: dashboardController.getDashboard is not a function
+    at D:\NodeJs-JitendraProject\routes\dashboardRoute.js:5:31
+    at Layer.handle [as handle_request] (D:\NodeJs-JitendraProject\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\NodeJs-JitendraProject\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\NodeJs-JitendraProject\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\NodeJs-JitendraProject\node_modules\express\lib\router\layer.js:95:5)
+    at D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:47:12)
+[8/25/2023, 1:15:23 PM] info: Connection to DB established successfully.
+[8/25/2023, 1:15:23 PM] error: uncaughtException: dashboardController.getDashboard is not a function
+TypeError: dashboardController.getDashboard is not a function
+    at D:\NodeJs-JitendraProject\routes\dashboardRoute.js:6:31
+    at Layer.handle [as handle_request] (D:\NodeJs-JitendraProject\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\NodeJs-JitendraProject\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\NodeJs-JitendraProject\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\NodeJs-JitendraProject\node_modules\express\lib\router\layer.js:95:5)
+    at D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\NodeJs-JitendraProject\node_modules\express\lib\router\index.js:47:12)
+[8/25/2023, 1:59:05 PM] info: Connection to DB established successfully.
+[8/25/2023, 1:59:12 PM] info: Connection to DB established successfully.
+[8/25/2023, 2:06:09 PM] info: Connection to DB established successfully.
+[8/25/2023, 2:06:19 PM] info: Connection to DB established successfully.
+[8/25/2023, 2:07:19 PM] info: Connection to DB established successfully.
+[8/25/2023, 2:07:20 PM] info: MySQL-DB connection closed.

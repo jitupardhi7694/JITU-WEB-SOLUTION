@@ -1,47 +1,49 @@
-<div class="container">
-    <div class="col-md-12 ">
-        <div class="row">
-            <video playsinline autoplay muted loop class="video-login">
-                <source src="/videos/pexels_videos_2611250 (2160p).mp4" type="video/webm">
+<%- include('./layout/partials/messages.ejs') %>
 
-            </video>
-            <div class="login-absolute login-body">
-                <div class="text-center mx-auto">
-                    <h4><i class="fa-sharp fa-solid fa-right-to-bracket"></i> Login </h4>
+    <div class="container">
+        <div class="col-md-12 ">
+            <div class="row">
+                <video playsinline autoplay muted loop class="video-login">
+                    <source src="/videos/pexels_videos_2611250 (2160p).mp4" type="video/webm">
+
+                </video>
+                <div class="login-absolute login-body">
+                    <div class="text-center mx-auto">
+                        <h4><i class="fa-sharp fa-solid fa-right-to-bracket"></i> Login </h4>
+                    </div>
+
+                    <div class="col-md-4 mx-auto mt-4 ">
+                        <form action="" method="post">
+                            <div class="mb-3">
+
+                                <input type="email" class="form-control  border rounded-pill" name="email"
+                                    placeholder="Email">
+                            </div>
+                            <div class="mb-3">
+
+                                <input type="password" class="form-control  border rounded-pill" name="password"
+                                    placeholder="Password">
+                            </div>
+                            <div class="text-center mt-4">
+                                <div class="flex ">
+                                    <button class="btn btn-outline-success text-white mr-4">Login</button>
+                                    <a href="/user/register" class=" text-white">Register <i
+                                            class="fa-sharp fa-solid fa-arrow-right"></i></a>
+                                </div>
+                                <div class="text-success flex    mt-2">
+                                    <a href="/user/forget-password">
+                                        <h6>Forget Password.? </h6>
+                                    </a>
+                                    <a href="/user/sendActivationLink">
+                                        <h6>Resend Activation Email </h6>
+                                    </a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
 
-                <div class="col-md-4 mx-auto mt-4 ">
-                    <form action="" method="post">
-                        <div class="mb-3">
-
-                            <input type="email" class="form-control  border rounded-pill" name="email"
-                                placeholder="Email">
-                        </div>
-                        <div class="mb-3">
-
-                            <input type="password" class="form-control  border rounded-pill" name="password"
-                                placeholder="Password">
-                        </div>
-                        <div class="text-center mt-4">
-                            <div class="flex ">
-                                <button class="btn btn-outline-success text-white mr-4">Login</button>
-                                <a href="/user/register" class=" text-white">Register <i
-                                        class="fa-sharp fa-solid fa-arrow-right"></i></a>
-                            </div>
-                            <div class="text-success flex    mt-2">
-                                <a href="/user/forget-password">
-                                    <h6>Forget Password.? </h6>
-                                </a>
-                                <a href="/user/sendActivationLink">
-                                    <h6>Resend Activation Email </h6>
-                                </a>
-                            </div>
-                        </div>
-                    </form>
-                </div>
             </div>
-
         </div>
-    </div>
 
-</div>
+    </div>

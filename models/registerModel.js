@@ -2,7 +2,7 @@ const { DataTypes } = require('sequelize');
 const sqlize = require('../helpers/authentication/init-mysql');
 
 const userRegister = sqlize.define(
-    'register',
+    'registers',
     {
         id: {
             autoIncrement: true,
@@ -19,7 +19,7 @@ const userRegister = sqlize.define(
             allowNull: false,
         },
         password: {
-            type: DataTypes.STRING(500),
+            type: DataTypes.STRING(500), // Adjust the length as needed
             allowNull: false,
         },
         activation_key: {
@@ -56,7 +56,7 @@ const userRegister = sqlize.define(
                 fields: [{ name: 'id' }],
             },
             {
-                name: 'idfkuser',
+                name: 'idfk_user',
                 using: 'BTREE',
                 fields: [{ name: 'id' }],
             },

@@ -16,7 +16,7 @@ function ensureNotAuthenticated(req, res, next) {
             'success_msg',
             'Already logged In, Please logout first to login again'
         );
-        return res.redirect('/user/dashboard');
+        return res.redirect('/dashboard');
     }
     return next();
 }
@@ -29,7 +29,7 @@ function ensureAdmin(req, res, next) {
         'error_msg',
         'Not Authorized!, You do not have the rights to access this resource.'
     );
-    return res.redirect('/user/dashboard');
+    return res.redirect('/dashboard');
 }
 
 function checkRoles(rolesArr) {

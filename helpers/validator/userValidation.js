@@ -1,77 +1,59 @@
 const { body, validationResult } = require('express-validator');
 
-var loginValidation = () => [
-    body('email').isEmail().withMessage('Please enter your email'),
-    body('password').isPassword().withMessage('Please enter your password'),
-];
-var registerValidation = () => [
-    body('name')
-        .withMessage('Please enter your name')
-        .isLength({ min: 2, max: 45 })
-        .withMessage('Please enter minimum 2 character and maximum 45'),
-    body('email').isEmail().withMessage('Please enter your email'),
+const userValidationRules = () => [
+    // username must be an email
+    body('name').notEmpty().withMessage('Name is required'),
+    body('email')
+        .notEmpty()
+        .withMessage('Email is required')
+        .isEmail()
+        .withMessage('Not a Valid Email')
+        .trim()
+        .normalizeEmail(),
     body('password')
-        .isStrongPassword({
-            minLength: 8,
-            minLowercase: 1,
-            minUppercase: 1,
-            minNumbers: 1,
-        })
-        .withMessage(
-            'Password must be greater than 8 and contain at least one uppercase letter, one lowercase letter, and one number'
-        ),
+        .isLength({ min: 8, max: 25 })
+        .withMessage('Password has to be min 8 chars and max 25 char long.'),
     body('confirmPassword')
-        .isStrongPassword({
-            minLength: 8,
-            minLowercase: 1,
-            minUppercase: 1,
-            minNumbers: 1,
-        })
-        .withMessage(
-            'Password must be greater than 8 and contain at least one uppercase letter, one lowercase letter, and one number'
-        ),
+        .notEmpty()
+        .withMessage('Confirm Password cannot be blank.')
+        .custom((value, { req }) => {
+            if (value !== req.body.password) {
+                // throw error if passwords do not match
+                throw new Error("Passwords don't match");
+            } else {
+                return value;
+            }
+        }),
 ];
-var forgetPassValidation = () => [
+
+const changePasswordRules = () => [
     body('password')
-        .isStrongPassword({
-            minLength: 8,
-            minLowercase: 1,
-            minUppercase: 1,
-            minNumbers: 1,
-        })
-        .withMessage(
-            'Password must be greater than 8 and contain at least one uppercase letter, one lowercase letter, and one number'
-        ),
+        .isLength({ min: 8, max: 25 })
+        .withMessage('Password has to be min 8 chars and max 25 char long.'),
     body('confirmPassword')
-        .isStrongPassword({
-            minLength: 8,
-            minLowercase: 1,
-            minUppercase: 1,
-            minNumbers: 1,
-        })
-        .withMessage(
-            'Password must be greater than 8 and contain at least one uppercase letter, one lowercase letter, and one number'
-        ),
+        .notEmpty()
+        .withMessage('Confirm Password cannot be blank.')
+        .custom((value, { req }) => {
+            if (value !== req.body.password) {
+                // throw error if passwords do not match
+                throw new Error("Passwords don't match");
+            } else {
+                return value;
+            }
+        }),
 ];
 
-const validate = (validations) => {
-    return async (req, res, next) => {
-        await Promise.all(validations.map((validation) => validation.run(req)));
-
-        const errors = validationResult(req);
-        if (errors.isEmpty()) {
-            return next();
-        }
-
-        res.status(400).json({
-            errors: errors.array(),
-        });
-    };
+const validate = (req, res, next) => {
+    const errors = validationResult(req);
+    const extractedErrors = [];
+    errors.array().map((error) => extractedErrors.push({ msg: error.msg }));
+    req.ValidateErrors = extractedErrors;
+    return next();
 };
 
 module.exports = {
-    loginValidation,
-    registerValidation,
-    forgetPassValidation,
+    userValidationRules,
+    changePasswordRules,
+
     validate,
 };
