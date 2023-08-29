@@ -38,10 +38,7 @@ const sendActivationLink = async (req, res, next, email) => {
         Nagpur-440024,
         Maharashtra</p>
          <p>www.jituwebsolution.co.in</p>
-         <p>8483931721</p>
-         <img src="../public/img/jitu-logo.png" width="563" height="101" style="margin-right:0px" class="CToWUd a6T" data-bit="iit" tabindex="0">
-          
-        `;
+         <p>8483931721</p> `;
 
         const emailOptions = {
             to: user.email,
