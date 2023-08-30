@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken');
 const sendEmails = require('./init-gmail');
-const User = require('../../models/userRoleModel');
+const User = require('../../models/registerModel');
 const logger = require('./winston');
 const host = require('../../config/host-config');
 
@@ -26,7 +26,7 @@ async function sendResetPasswordLink(req, res, next, email) {
         );
 
         let emailBodyText = `
-        <p> Hello ${userName.name} </p>
+        <p> Hello ${user.name} </p>
         <p>You registered an account on Jitu Web Solution, before being able to use your account you need to verify that this is
             your email address by </p>
         <p>clicking here: <a  href="${host.PROTOCOL}://${host.HOST}:${host.PORT}/forgotPassword/${token} class="btn btn-outline-success">Activate Email</a> </p>
@@ -47,8 +47,8 @@ async function sendResetPasswordLink(req, res, next, email) {
         const emailOptions = {
             to: user.email,
             cc: '',
-            subject: 'Dinshaws User - Reset your password',
-            text: `<h2>Use the link below to reset your password.</h2><br><a style="background-color: #66a3ff; color: white; padding: 1em 4em;text-decoration:none; border-radius: 10px" href="${host.PROTOCOL}://${host.HOST}:${host.PORT}/user/forgotPassword/${token}"> Click here to reset password.</a>.<br><br>The link is valid only for 2 hours.<br>The link will work only once.<br><br><strong>Thanks and Regards,</strong><br><strong>Dinshaws Team</strong>`,
+            subject: 'Jitu Web Solution User - Reset your password',
+            text: `<h2>Use the link below to reset your password.</h2><br><a style="background-color: #66a3ff; color: white; padding: 1em 4em;text-decoration:none; border-radius: 10px" href="${host.PROTOCOL}://${host.HOST}:${host.PORT}/user/forgotPassword/${token}"> Click here to reset password.</a>.<br><br>The link is valid only for 2 hours.<br>The link will work only once.<br><br><strong>Thanks and Regards,</strong><br><strong>Jitu Web Solution </strong>`,
         };
         sendEmails(emailOptions);
         user.reset_key = token;

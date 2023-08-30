@@ -163,7 +163,7 @@ const postForgotPassword = async (req, res, next) => {
     }
 }; // end of postForgotPassword function
 
-const getResetLink = (req, res) => res.render('/user/resetPassword'); // end of getResetLink function
+const getResetLink = (req, res) => res.render('resetPasswordEmail'); // end of getResetLink function
 
 const postResetLink = async (req, res, next) => {
     try {
