@@ -7,12 +7,26 @@ body {
     /* background: url(../img/background.jpg); */
     background-size: cover;
 }
-
+.navbar-toggler {
+    border: 1px solid #ffffff !important;
+}
 .footer-heading {
     text-align: center !important;
-    
+}
+.fa-sliders {
+    color: rgb(254, 93, 168);
 }
 
+.dropdown-item:hover {
+    background: none !important;
+    color: #00ffe7 !important;
+    text-decoration: underline !important;
+}
+.nav-item:hover {
+    background: none !important;
+    color: #00ffe7 !important;
+    text-decoration: underline !important;
+}
 .form-select {
     background: transparent !important;
     color: aliceblue;
@@ -88,7 +102,7 @@ video {
 
 .welcome-heading {
     font-weight: bold;
-    color: #00ffe7;
+    color: rgb(254, 93, 168) !important;
     font-size: 3rem;
 }
 .login-absolute {

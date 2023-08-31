@@ -1,5 +1,5 @@
 const roles = require('../../config/roles.json');
-// const menuByRoles = require('../config/roles_menu.json');
+const menuByRoles = require('../../config/roles_menu.json');
 
 function ensureAuthenticated(req, res, next) {
     if (req.isAuthenticated()) {
@@ -50,14 +50,14 @@ function checkRoles(rolesArr) {
 }
 
 // preventMultipleLogins Middleware
-const userSessions = {};
+const useressions = {};
 const preventMultipleLogins = (req, res, next) => {
     const { user } = req;
 
     if (user) {
         const sessionId = req.sessionID;
         const userId = user.id;
-        const existingSessionId = userSessions[userId];
+        const existingSessionId = useressions[userId];
 
         if (existingSessionId && existingSessionId !== sessionId) {
             const otherSocket =
@@ -74,9 +74,36 @@ const preventMultipleLogins = (req, res, next) => {
                 return;
             }
         }
-        userSessions[userId] = sessionId;
+        useressions[userId] = sessionId;
     }
 
+    next();
+};
+
+const setMenuByRoles = (req, res, next) => {
+    if (req.isAuthenticated()) {
+        // console.log('UserRole:', req.user.role_id);
+        switch (req.user.role_id) {
+            case roles.ADMIN:
+                // console.log('Admin Menu');
+                res.locals.menu = menuByRoles.adminMenu;
+                break;
+            case roles.ADMIN:
+                // console.log('Owner Menu');
+                res.locals.menu = menuByRoles.ownerMenu;
+                break;
+            case roles.USER:
+                // console.log('Doctor Menu');
+                res.locals.menu = menuByRoles.doctorsMenu;
+                break;
+            case roles.USER:
+                res.locals.menu = menuByRoles.counsellerMenu;
+                break;
+            default:
+                res.locals.menu = null;
+        }
+    }
+    // console.log(res.locals.menu);
     next();
 };
 
@@ -86,4 +113,5 @@ module.exports = {
     ensureAdmin,
     checkRoles,
     preventMultipleLogins,
+    setMenuByRoles,
 };
