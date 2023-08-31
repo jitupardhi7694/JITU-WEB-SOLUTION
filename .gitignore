@@ -1,4 +1,4 @@
 node_modules
 logs
-logs/combined.log
-log/error.log
+# ./logs/combined.log
+# ./log/error.log
