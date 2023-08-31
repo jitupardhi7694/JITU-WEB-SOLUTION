@@ -30,6 +30,12 @@ router.post('/login', ensureNotAuthenticated, (req, res, next) => {
 router.get('/register', ensureNotAuthenticated, (req, res, next) => {
     userController.getRegister(req, res, next);
 });
+router.get('/registerTable', (req, res, next) => {
+    userController.getRegisterTable(req, res, next);
+});
+router.post('/registerTable/:id/delete', (req, res, next) => {
+    userController.deleteUser(req, res, next);
+});
 
 // Register handle, uses validate middleware
 router.post(

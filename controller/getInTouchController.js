@@ -53,14 +53,14 @@ const getInTouchRegister = async (req, res, next) => {
     }
 };
 
-const getTable = async (req, res) => {
-    const row = await getInTouchModel.findAll();
+const getInTouchTable = async (req, res) => {
+    const rows = await getInTouchModel.findAll();
     res.render('getInTouchTable', {
-        row,
+        rows,
     });
 };
 
-const deleteTable = async (req, res) => {
+const getInTouchTableDelete = async (req, res) => {
     await deleteTouchTable(req, res);
 };
 
@@ -74,7 +74,7 @@ async function deleteTouchTable(req, res) {
             },
         });
         req.flash('success_msg', 'Data deleted successfully.');
-        return res.redirect('/');
+        return res.redirect('/get-in-touch-table');
     } catch (error) {
         logger.error('', error);
         return null;
@@ -84,7 +84,6 @@ async function deleteTouchTable(req, res) {
 module.exports = {
     getInTouch,
     getInTouchRegister,
-    getTable,
-    deleteTable,
-    deleteTouchTable,
+    getInTouchTable,
+    getInTouchTableDelete,
 };

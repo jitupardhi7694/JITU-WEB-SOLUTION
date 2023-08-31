@@ -4,7 +4,7 @@
             <div class="col-md-10 mx-auto">
                 <div class="card card-body shadow">
                     <h2 class="text-center mb-3">
-                        <i class="bi bi-box-arrow-in-right"></i>Get In Touch Report
+                        <i class="bi bi-box-arrow-in-right"></i>User Roles Report
                     </h2>
                 </div>
             </div>
@@ -21,7 +21,7 @@
 
                                     <a href="javascript:history.back()" type="submit" class="btn btn-secondary"> <i
                                             class="fa-solid fa-backward"></i></a>
-                                    <a href="/#get-in-touch" type="submit" class="btn btn-success"> <i
+                                    <a href="/user_roles/register" type="submit" class="btn btn-success"> <i
                                             class="fa-solid fa-pen-to-square"></i></a>
 
                                 </div>
@@ -40,12 +40,7 @@
                                 <tr class="text-white text-center" id="regtable">
                                     <th scope="col">ACTION</th>
                                     <th scope="col">ID</th>
-                                    <th scope="col">Name</th>
-                                    <th scope="col">Email</th>
-                                    <th scope="col">Phone Number</th>
-                                    <th scope="col">Location</th>
-                                    <th scope="col">Message</th>
-                                    <th scope="col">Create Date</th>
+                                    <th scope="col">NAME</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center ">
@@ -81,7 +76,7 @@
                                                             <div class="modal-footer">
                                                                 <button type="button" class="btn btn-secondary"
                                                                     data-bs-dismiss="modal">Close</button>
-                                                                <form action="/get-in-touch-table/<%=data.id%>/delete"
+                                                                <form action="/user_roles/view-role/<%=data.id%>/delete"
                                                                     method="post">
                                                                     <button type="submit" class="btn btn-danger"
                                                                         id="delete">
@@ -97,28 +92,13 @@
                                                 <%=data.id %>
                                             </td>
                                             <td>
-                                                <%=data.name %>
-                                            </td>
-                                            <td>
-                                                <%=data.email %>
-                                            </td>
-                                            <td>
-                                                <%=data.phone_number %>
-                                            </td>
-                                            <td>
-                                                <%=data.location %>
-                                            </td>
-                                            <td>
-                                                <%=data.message %>
-                                            </td>
-                                            <td>
-                                                <%=data.created_at %>
+                                                <%=data.role_name %>
                                             </td>
                                         </tr>
                             </tbody>
                             <% i++; }) %>
                                 <% } else{ %>
-                                    <tr class="text-center text-danger" id="noRecordFoundRow">
+                                    <tr class="text-center " id="noRecordFoundRow">
                                         <td colspan="17">No Record Found</td>
                                     </tr>
                                     <% } %>

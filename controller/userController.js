@@ -34,6 +34,14 @@ const getRegister = async (req, res) => {
         selectedRoleName: null,
     });
 };
+const getRegisterTable = async (req, res) => {
+    const rows = await User.findAll();
+    const total = rows.length;
+    res.render('signUpTable', {
+        rows,
+        total,
+    });
+};
 
 const postRegister = async (req, res, next) => {
     try {
@@ -86,7 +94,7 @@ const postRegister = async (req, res, next) => {
 
         sendActivationLinkEmail(req, res, next, savedUser.email);
 
-        console.log('Activation link email saved =>', newUser);
+        // console.log('Activation link email saved =>', newUser);
         req.flash(
             'success_msg',
             'Please check your email and activate the account.'
@@ -287,6 +295,41 @@ async function fetchUserRoles() {
     }
 }
 
+const deleteUser = async (req, res) => {
+    await userDelete(req, res);
+};
+
+// Delete Job Opening from Database
+async function userDelete(req, res) {
+    const { id } = req.params;
+    try {
+        await User.destroy({
+            where: {
+                id,
+            },
+        });
+
+        req.flash('success_msg', 'Data deleted successfully.');
+        return res.redirect('/user/registerTable');
+    } catch (error) {
+        if (error) {
+            if (
+                error.message.includes(
+                    'Cannot delete or update a parent row: a foreign key constraint fails'
+                )
+            ) {
+                req.flash(
+                    'error_msg',
+                    'Cannot delete this record as it is already in use.'
+                );
+                return res.redirect('/user/registerTable');
+            }
+            logger.error("Can't delete User Roles from the database ->", error);
+        }
+        return null;
+    }
+}
+
 module.exports = {
     getLogin,
     postLogin,
@@ -300,4 +343,6 @@ module.exports = {
     postActivationLink,
     getActivateLinkHandler,
     getLogout,
+    getRegisterTable,
+    deleteUser,
 };
