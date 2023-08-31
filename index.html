@@ -6,71 +6,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IOS Toggle</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
 
-        body {
-            height: 100vh;
-            background-color: #090909;
-            display: grid;
-            place-items: center;
-        }
-
-        .container {
-            width: 80px;
-            height: 45px;
-            position: relative;
-        }
-
-        .checkbox {
-            opacity: 0;
-            width: 0;
-            height: 0;
-            position: absolute;
-        }
-
-        .switch {
-            display: block;
-            width: 100%;
-            height: 100%;
-            border-radius: 1000px;
-            background-color: #e9e9eb;
-            transition: all 0.2s ease-out;
-            cursor: pointer;
-        }
-
-        .slider {
-            position: absolute;
-            inset: 2.5px;
-            width: 40px;
-            height: 40px;
-            background-color: #ffffff;
-            border-radius: 50%;
-            box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15), 0px 3px 1px rgba(0, 0, 0, 0.06);
-            transition: all 0.2s ease-out;
-        }
-
-        .checkbox:checked+.switch {
-            background-color: #34c759;
-        }
-
-        .checkbox:checked+.switch .slider {
-            left: calc(50% - 2.5px);
-        }
-    </style>
 </head>
 
 <body>
-    <div class="container">
-        <input type="checkbox" class="checkbox" id="checkbox">
-        <label class="switch" for="checkbox">
-            <span class="slider"></span>
-        </label>
-    </div>
+    <!-- Navbar -->
+
+    <!-- <div class="contact-details"> -->
+    <nav class="navbar  navbar-expand-lg fixed-top bg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/"><i class="fa-sharp fa-solid fa-code"></i> Jitu Web Solution
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-sliders"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="navMenu">
+
+                    <!-- dynamic menu from data passed -->
+                    <% if(typeof(menu) !='undefined' ) { %>
+                        <% locals.menu.forEach(function(item) { %>
+                            <% if (item.submenu) { %>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" aria-current="page" href="<%= item.url %>">
+                                        <%= item.name %>
+                                    </a>
+                                </li>
+                                <% } else { %>
+                                    <li class="nav-item">
+                                        <a class="nav-link active text-white" aria-current="page" href="/">Home</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle text-white" href="/#services"
+                                            id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            Services
+                                        </a>
+                                        <ul class="dropdown-menu bg " aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item text-white" href="/#services">UI/UX Design</a>
+                                            </li>
+                                            <li><a class="dropdown-item text-white" href="/#services">Web
+                                                    Development</a></li>
+                                            <li><a class="dropdown-item text-white" href="/#services">Software
+                                                    Development</a></li>
+                                            <li><a class="dropdown-item text-white" href="/#services">Full Stack
+                                                    Development</a></li>
+
+
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="/#about-us">About Us</a>
+                                    </li>
+
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle text-white" href="/#technology"
+                                            id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            Technology
+                                        </a>
+                                        <ul class="dropdown-menu bg " aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item text-white" href="/#technology">Node Js</a></li>
+                                            <li><a class="dropdown-item text-white" href="/#technology">PHP</a></li>
+                                            <li><a class="dropdown-item text-white" href="/#technology">HTML</a></li>
+                                            <li><a class="dropdown-item text-white" href="/#technology">CSS</a></li>
+                                            <li><a class="dropdown-item text-white" href="/#technology">JS</a></li>
+                                            <li><a class="dropdown-item text-white" href="/#technology">BOOSTRAP</a>
+                                            </li>
+
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="/#our-portpolio">Portpolio</a>
+                                    </li>
+
+                </ul>
+                <div class="d-flex">
+
+                    <a href="/#get-in-touch" class="btn btn-outline-success text-white">Get In Touch <i
+                            class="fa-solid fa-keyboard"></i></a>
+                    <a class="btn btn-outline-success text-white" href="/user/login">Admin</a>
+                </div>
+                <% } %>
+                    <% }) %>
+                        <% }; %>
+
+            </div>
+        </div>
+    </nav>
 </body>
 
 </html>

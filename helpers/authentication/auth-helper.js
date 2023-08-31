@@ -86,19 +86,14 @@ const setMenuByRoles = (req, res, next) => {
         switch (req.user.role_id) {
             case roles.ADMIN:
                 // console.log('Admin Menu');
-                res.locals.menu = menuByRoles.adminMenu;
+                res.locals.menu = menuByRoles.loginMenu;
                 break;
-            case roles.ADMIN:
-                // console.log('Owner Menu');
-                res.locals.menu = menuByRoles.ownerMenu;
-                break;
+
             case roles.USER:
                 // console.log('Doctor Menu');
-                res.locals.menu = menuByRoles.doctorsMenu;
+                res.locals.menu = menuByRoles.loginMenu;
                 break;
-            case roles.USER:
-                res.locals.menu = menuByRoles.counsellerMenu;
-                break;
+
             default:
                 res.locals.menu = null;
         }

@@ -61,7 +61,7 @@ async function sendResetPasswordLink(req, res, next, email) {
         };
     } catch (error) {
         logger.error(error);
-        return next(error);
+        return error;
     }
 }
 

@@ -1,15 +1,13 @@
 const jwt = require('jsonwebtoken');
 const sendEmails = require('./init-gmail');
-const profileModel = require('../../models/registerModel');
+const registerModel = require('../../models/registerModel');
 const logger = require('./winston');
 const host = require('../../config/host-config');
-
 const { JWT_ACTIVE_KEY } = process.env;
 
 const sendActivationLink = async (req, res, next, email) => {
     try {
-        const userName = profileModel.findAll();
-        const user = await profileModel.findOne({ where: { email } });
+        const user = await registerModel.findOne({ where: { email } });
         if (!user) {
             const errors = [
                 {
@@ -25,7 +23,7 @@ const sendActivationLink = async (req, res, next, email) => {
         });
 
         let emailBodyText = `
-        <p> Hello ${userName.name} </p>
+        <p> Hello ${user.name} </p>
         <p>You registered an account on Jitu Web Solution, before being able to use your account you need to verify that this is
             your email address by </p>
         <p>clicking here: <a href="${host.PROTOCOL}://${host.HOST}:${host.PORT}/user/activate/${token} class="btn btn-outline-success">Activate Email</a> </p>
@@ -51,8 +49,8 @@ const sendActivationLink = async (req, res, next, email) => {
         sendEmails(emailOptions);
 
         user.activation_key = token;
-        const savedprofileModel = await user.save();
-        logger.info(`Application  Email sent to: ${savedprofileModel.email}`);
+        const savedregisterModel = await user.save();
+        logger.info(`Application  Email sent to: ${savedregisterModel.email}`);
         return {
             success: true,
             message: 'Application  email send successfully.',
