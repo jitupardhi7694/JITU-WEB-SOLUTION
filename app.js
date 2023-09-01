@@ -57,6 +57,17 @@ app.use('/dashboard', ensureAuthenticated, require('./routes/dashboardRoute'));
 app.use('/user', require('./routes/userRoute'));
 app.use('/user_roles', ensureAuthenticated, require('./routes/userRoleRoute'));
 
+// catch 404 and forward to error handler, should be after all known routes
+app.use((req, res) => {
+    res.render('errPages/show404', { path: req.url });
+});
+
+// error handler, this has to be last middleware
+app.use((err, req, res) => {
+    logger.error(err);
+    return res.render('errPages/showGenericErr', { err: err.message });
+});
+
 app.listen(PORT, async (err) => {
     if (err) throw err;
     else {

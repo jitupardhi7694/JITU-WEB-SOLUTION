@@ -3,7 +3,6 @@ const sendEmails = require('./init-gmail');
 const registerModel = require('../../models/registerModel');
 const logger = require('./winston');
 const host = require('../../config/host-config');
-const { JWT_ACTIVE_KEY } = process.env;
 
 const sendActivationLink = async (req, res, next, email) => {
     try {
@@ -17,10 +16,12 @@ const sendActivationLink = async (req, res, next, email) => {
             return res.render('register', { errors });
         }
 
-        const secretKey = JWT_ACTIVE_KEY; // Generate a new secret key
-        const token = jwt.sign({ email: user.email, id: user.id }, secretKey, {
-            expiresIn: '2h',
-        });
+        // Generate a new secret key
+        const token = jwt.sign(
+            { email: user.email, id: user.id },
+            process.env.JWT_ACTIVE_KEY,
+            { expiresIn: '2h' }
+        );
 
         let emailBodyText = `
         <p> Hello ${user.name} </p>
@@ -30,19 +31,19 @@ const sendActivationLink = async (req, res, next, email) => {
         <p>This link valid upto 2hr</p>
 
         <p>Kind Regards, Jitu Web Solution</p>
-        <hr style="color:#854382;">
+        <hr style="color:#854387;">
         <p> Madhuban Apartment,  
         New Bidipeth, 
         Nagpur-440024,
         Maharashtra</p>
-         <p>www.jituwebsolution.co.in</p>
+         <p>www.jituwebsolution.co.inxz</p>
          <p>8483931721</p> `;
 
         const emailOptions = {
             to: user.email,
             cc: '',
             bcc: '',
-            subject: `Jitu With Code User Verification Email`,
+            subject: `Jitu Web Solution  User Verification Email`,
             text: emailBodyText,
         };
 
