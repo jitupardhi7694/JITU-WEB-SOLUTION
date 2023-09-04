@@ -1,11 +1,14 @@
 <nav class="navbar  navbar-expand-lg fixed-top bg">
     <div class="container-fluid">
         <% if(locals.isAuthenticated===true) { %>
-            <a class="navbar-brand" href="/dashboard"><i class="fa-sharp fa-solid fa-code"></i> Jitu Web Solution
-            </a>
+            <!-- <a class="navbar-brand" href="/dashboard"><i class="fa-sharp fa-solid fa-code"></i> Jitu Web Solution
+            </a> -->
+            <a class="navbar-brand" href="/dashboard"><img src="\img\newLogo\new-logo.png" alt="jitu-web-logo"></a>
             <% }else {%>
-                <a class="navbar-brand" href="/"><i class="fa-sharp fa-solid fa-code"></i> Jitu Web Solution
-                </a>
+                <!-- <a class="navbar-brand" href="/"><i class="fa-sharp fa-solid fa-code"></i> Jitu Web Solution
+                </a> -->
+                <a class="navbar-brand" href="/"><img src="\img\newLogo\new-logo.png" alt="jitu-web-logo"></a>
+
                 <%}%>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
