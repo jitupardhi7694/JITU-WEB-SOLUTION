@@ -3,7 +3,7 @@ switch (process.env.NODE_ENV) {
     case 'production':
         hostConfig = {
             PROTOCOL: 'http',
-            HOST: 'jitu-web-solution-codespace.onrender.com',
+            HOST: '140.238.167.36',
             PORT: '8000',
             REPLY_EMAIL: 'jituwebsolution7709@gmail.com',
             GET_TOUCH_EMAIL: 'jituwebsolution7709@gmail.com',
