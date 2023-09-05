@@ -69,8 +69,9 @@ app.use((err, req, res) => {
 });
 
 app.listen(PORT, async (err) => {
-    if (err) throw err;
-    else {
+    if (err) {
+        throw err;
+    } else {
         await console.log(`server running on port http://localhost:${PORT}`);
     }
 });

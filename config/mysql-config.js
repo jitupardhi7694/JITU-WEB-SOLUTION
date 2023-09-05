@@ -2,7 +2,7 @@ let dbconfig = {};
 switch (process.env.NODE_ENV) {
     case 'production':
         dbconfig = {
-            HOST: '140.238.167.36',
+            HOST: 'jitu-web-solution-codespace.onrender.com',
             PORT: '3306',
             USER: 'snehaa',
             PWD: 'Sneha@123#',
