@@ -1,7 +1,7 @@
 const session = require('express-session');
 
 // configure the session storage to mysql db
-const mysql2 = require('mysql2/promise');
+const mysql2 = require('mysql2');
 const MySQLStore = require('express-mysql-session')(session);
 const dbConfig = require('../../config/mysql-config');
 
