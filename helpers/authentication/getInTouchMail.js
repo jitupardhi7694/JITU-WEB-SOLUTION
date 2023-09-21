@@ -35,7 +35,7 @@ const sendActivationLink = async (req, res, email, id) => {
         
             <hr style="margin: 0; padding:0; border: 1.7px solid #854382; width: auto">
             <p style="margin: 0; padding: 0;">Regards, </p>
-           <p style="margin: 0; padding: 0;"> <a href="https://jitu-web-solution-codespace.onrender.com/">www.jituwebsolution.co.inxz</a></p>
+           <p style="margin: 0; padding: 0;"> <a href="https://jitu-web-solution-codespace.onrender.com/">www.jituwebsolution.co.in</a></p>
             <p style="margin: 0; padding: 0 0 6px 0;">Madhuban Apartment, New Bidipeth, Nagpur-440024
             Maharashtra </p>
             <p style="margin: 0; padding: 0;">8483931721</p>     `;

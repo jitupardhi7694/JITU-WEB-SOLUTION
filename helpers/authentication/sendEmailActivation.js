@@ -36,7 +36,7 @@ const sendActivationLink = async (req, res, next, email) => {
         New Bidipeth, 
         Nagpur-440024,
         Maharashtra</p>
-         <a href="https://jitu-web-solution-codespace.onrender.com/">www.jituwebsolution.co.inxz</a>
+         <a href="https://jitu-web-solution-codespace.onrender.com/">www.jituwebsolution.co.in</a>
          <p>8483931721</p> `;
 
         const emailOptions = {
